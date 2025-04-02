@@ -12,13 +12,13 @@ const portfolioItems = [{
   id: 2,
   title: 'Analytics Platform',
   category: 'Dashboard',
-  image: './assets/imagenes/1.png',
+  image: './assets/imagenes/Group 155.png',
   size: 'small'
 }, {
   id: 3,
   title: 'Social Media Manager',
   category: 'Web Application',
-  image: './assets/imagenes/2.png',
+  image: './assets/imagenes/Group 156.png',
   size: 'wide'
 }, {
   id: 4,
