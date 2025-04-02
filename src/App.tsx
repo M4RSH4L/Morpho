@@ -457,9 +457,9 @@ export function App() {
                   <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
                     <Trophy className="w-8 h-8 text-yellow-400" />
                   </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">250+</h3>
+                  <h3 className="font-['Anton'] text-3xl text-white">25+</h3>
                   <p className="font-poppins text-gray-300 text-sm">
-                    Successful Projects Delivered
+                    Proyectos realizados en 2025.
                   </p>
                 </div>
               </div>
@@ -473,7 +473,7 @@ export function App() {
                   </div>
                   <h3 className="font-['Anton'] text-3xl text-white">50k+</h3>
                   <p className="font-poppins text-gray-300 text-sm">
-                    Happy Customers Worldwide
+                    Productos en linea
                   </p>
                 </div>
               </div>
@@ -487,7 +487,7 @@ export function App() {
                   </div>
                   <h3 className="font-['Anton'] text-3xl text-white">98%</h3>
                   <p className="font-poppins text-gray-300 text-sm">
-                    Client Satisfaction Rate
+                    Clientes satisfechos
                   </p>
                 </div>
               </div>
@@ -499,9 +499,9 @@ export function App() {
                   <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
                     <Rocket className="w-8 h-8 text-yellow-400" />
                   </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">10+</h3>
+                  <h3 className="font-['Anton'] text-3xl text-white">180%+</h3>
                   <p className="font-poppins text-gray-300 text-sm">
-                    Years of Excellence
+                    De crecimiento en los ultimos 3 meses
                   </p>
                 </div>
               </div>
