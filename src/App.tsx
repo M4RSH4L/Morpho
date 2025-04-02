@@ -114,14 +114,14 @@ const faqItems = [{
   question: 'What technologies do you use?',
   answer: 'We primarily work with modern web technologies including React, TypeScript, and Node.js. Our tech stack is constantly evolving to incorporate the best tools for each project.'
 }, {
-  question: 'How long does a typical project take?',
-  answer: "Project timelines vary depending on complexity and scope. A typical medium-sized project takes 2-3 months from conception to launch. We'll provide detailed timeline estimates during our initial consultation."
+  question: 'Se puede financiar?',
+  answer: "Dependiendo del proyecto, podemos ofrecer opciones de financiamiento. Hacemos un analisis de la viabilidad del proyecto y de los tiempos para gestionar un proyecto realista."
 }, {
-  question: 'Do you provide ongoing support?',
-  answer: 'Yes, we offer various support packages to maintain and update your project after launch. This includes bug fixes, feature updates, and performance optimization.'
+  question: 'Como se que mi tienda web es segura?',
+  answer: 'Nuestro objetivo como Agencia, no es solo entregar un producto final, sino que la persona comprenda las ventajas y desventajas en su maxima expresion.'
 }, {
-  question: 'What is your development process?',
-  answer: 'We follow an agile methodology with regular client check-ins. Our process includes discovery, planning, design, development, testing, and deployment phases, with continuous feedback and iteration.'
+  question: 'Quiero una asesoria, la deberia pagar?',
+  answer: 'No, la primer asesoria es gratuita. Y es donde ponemos los pies sobre la tierra y analizamos juntos si el proyecto es viable, si hay que hacerle ajustes o si no funciona.'
 }];
 type CarouselProps = {
   items: {
@@ -214,22 +214,22 @@ export function App() {
       </div>
       <nav className="w-full px-6 py-4 border-b flex items-center justify-between fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50">
         <div className="flex items-center space-x-2">
-          <Globe className="w-6 h-6 text-gray-600" />
+          <img src="./public/assets/imagenes/morpho.png" className="w-6 h-6 text-gray-600"  alt="logotipo morpho" />
           <span className="font-anton text-xl uppercase tracking-wide">
             Eccom
           </span>
         </div>
         <div className="hidden md:flex items-center space-x-6">
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          <a href="#" className="text-white hover:text-gray-900">
             Features
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          <a href="#" className="text-white hover:text-gray-900">
             About
           </a>
-          <a href="#" className="text-gray-600 hover:text-gray-900">
+          <a href="#" className="text-white hover:text-gray-900">
             Contact
           </a>
-          <button className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
+          <button   className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
             Get Started
           </button>
         </div>
@@ -270,35 +270,36 @@ export function App() {
                 </a>
               </div>
               <button className="w-full bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
-                Get Started
+                Get Started 
               </button>
+              
             </div>
+            
           </div>}
       </nav>
       <main className={`relative max-w-6xl mx-auto px-4 sm:px-6 transition-all duration-300 ease-in-out ${isMenuOpen ? 'pt-[400px]' : 'pt-24'}`}>
         <div className="relative">
           <div className="text-center mb-12 sm:mb-16">
             <div className="inline-block">
-              <span className="font-anton text-base sm:text-lg font-semibold mb-2">
-                Transform Your Business
+              <span className="font-anton text-base text-yellow-400 sm:text-lg font-semibold mb-2">
+                Agencia de Diseño
               </span>
             </div>
             <h1 className="font-anton text-4xl sm:text-5xl md:text-6xl text-white mb-6 leading-tight uppercase tracking-wider">
-              Transformamos ideas
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-400">
+              Acompañamos a las personas 
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
                 {' '}
-                en resultados medibles
+                en su transformacion Digital. 
               </span>
             </h1>
             <p className="font-poppins text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4 leading-relaxed">
-              Learn the most valuable strategies and techniques to scale your
-              business effectively in today's digital landscape
+              Todos los casos de exitos comienzan en una idea.
             </p>
           </div>
           <div className="max-w-4xl mx-auto mb-24">
             <div className="relative rounded-2xl overflow-hidden bg-gray-800">
               <div className="aspect-video relative">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80" alt="Video Thumbnail" className="w-full h-full object-cover opacity-75" />
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80" alt="Video Thumbnail" className=" h-full object-cover opacity-75  w-full " />
                 <div className="absolute inset-0 flex items-center justify-center bg-gray-900/60">
                   <button className="group relative">
                     <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-yellow-400 rounded-full opacity-75 group-hover:opacity-100 blur transition-opacity"></div>
@@ -329,10 +330,10 @@ export function App() {
         <div className="max-w-6xl mx-auto my-24">
           <div className="text-center mb-16">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              How We Work
+              Como Trabajamos
             </span>
             <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
-              Our Working Process
+              Nuestro proceso de Trabajo en 4 pasos
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
               We follow a streamlined approach to deliver exceptional results
@@ -351,12 +352,10 @@ export function App() {
                   </div>
                 </div>
                 <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                  Discovery Phase
+                  Fase de Indagacion
                 </h3>
                 <p className="font-poppins text-gray-300 text-sm flex-grow">
-                  We begin by understanding your business goals, target
-                  audience, and project requirements through detailed
-                  consultations.
+                  En esta primera instancia se averigua la viabilidad del proyecto y de los tiempos para gestionar un proyecto realista.
                 </p>
                 <div className="mt-4 pt-4 border-t border-gray-800">
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
@@ -379,11 +378,11 @@ export function App() {
                   </div>
                 </div>
                 <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                  Planning & Design
+                  Estrategia y Planificacion
                 </h3>
                 <p className="font-poppins text-gray-300 text-sm flex-grow">
-                  We create detailed project plans and design mockups that align
-                  with your brand and business objectives.
+                Creamos planes de proyecto detallados y 
+                diseños de maqueta que se alinean con tu marca y objetivos comerciales.
                 </p>
                 <div className="mt-4 pt-4 border-t border-gray-800">
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
@@ -406,11 +405,11 @@ export function App() {
                   </div>
                 </div>
                 <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                  Development
+                  Diseño y Desarrollo
                 </h3>
                 <p className="font-poppins text-gray-300 text-sm flex-grow">
-                  Our expert team brings your project to life using cutting-edge
-                  technologies and best practices.
+                Nuestro equipo de expertos da vida a tu proyecto 
+                utilizando tecnologías de vanguardia y las mejores prácticas.
                 </p>
                 <div className="mt-4 pt-4 border-t border-gray-800">
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
@@ -431,11 +430,10 @@ export function App() {
                   </div>
                 </div>
                 <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                  Launch & Support
+                Entrega y Autogestion
                 </h3>
                 <p className="font-poppins text-gray-300 text-sm flex-grow">
-                  We ensure a smooth launch and provide ongoing support to
-                  maintain optimal performance.
+                Te entregamos tu tienda lista para vender y te capacitamos para que la gestiones con confianza desde el inicio.
                 </p>
                 <div className="mt-4 pt-4 border-t border-gray-800">
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
@@ -528,6 +526,148 @@ export function App() {
           <Carousel items={portfolioItems} />
         </div>
 
+
+        <div className="mt-24 mb-32">
+          <div className="text-center mb-16">
+            <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
+              Our E-commerce Solution
+            </span>
+            <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
+              Complete Web Store Solution
+            </h2>
+            <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
+              Transform your business with our comprehensive e-commerce platform
+            </p>
+          </div>
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="grid lg:grid-cols-3 gap-8">
+              <div className="group relative">
+                <div className="bg-purple-600 absolute inset-0 rounded-2xl transition-all duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
+                <div className="relative bg-gray-900 p-8 rounded-2xl border border-gray-800">
+                  <div className="flex items-center justify-between mb-8">
+                    <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
+                      <Eye className="w-6 h-6 text-gray-900" />
+                    </div>
+                    <span className="font-['Anton'] text-2xl text-yellow-400">
+                      01
+                    </span>
+                  </div>
+                  <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
+                    Diseño Profesional
+                  </h3>
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                        Nos adaptamos al diseño de tu marca
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                        Customizamos los formatos para pc y celular
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                        Optimizamos la experiencia de usuario
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="group relative">
+                <div className="bg-purple-600 absolute inset-0 rounded-2xl transition-all duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
+                <div className="relative bg-gray-900 p-8 rounded-2xl border border-gray-800">
+                  <div className="flex items-center justify-between mb-8">
+                    <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
+                      <Rocket className="w-6 h-6 text-gray-900" />
+                    </div>
+                    <span className="font-['Anton'] text-2xl text-yellow-400">
+                      02
+                    </span>
+                  </div>
+                  <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
+                    Puesta en Marcha
+                  </h3>
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                        Hacemos las integraciones de metodos de pago y metodos de envio
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                       Preparacion de la tienda para el lanzamiento
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                        dejamos el sitio optimizado para SEO
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                        Marketing integrations
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="group relative">
+                <div className="bg-purple-600 absolute inset-0 rounded-2xl transition-all duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
+                <div className="relative bg-gray-900 p-8 rounded-2xl border border-gray-800">
+                  <div className="flex items-center justify-between mb-8">
+                    <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
+                      <Users2 className="w-6 h-6 text-gray-900" />
+                    </div>
+                    <span className="font-['Anton'] text-2xl text-yellow-400">
+                      03
+                    </span>
+                  </div>
+                  <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
+                    Autogestion
+                  </h3>
+                  <div className="space-y-3 mb-6">
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                        Preparamos capacitaciones para que pueads gestionar tu tienda
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                        Order processing system
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">Customer management</span>
+                    </div>
+                    <div className="flex items-center gap-3 text-gray-300">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="font-poppins">
+                        Real-time sales tracking
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="mt-12 text-center">
+              <button className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
+                Agenda tu reunion Gratuita hoy!
+              </button>
+            </div>
+          </div>
+        </div>
+
         <div className="mt-24 mb-16">
           <div className="text-center mb-12">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
@@ -582,7 +722,7 @@ export function App() {
               FAQ
             </span>
             <h2 className="font-anton text-3xl sm:text-4xl text-white mb-4">
-              Frequently Asked Questions
+              Preguntas Frecuentes
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4 mb-8">
               Find answers to common questions about our services and process
