@@ -2,102 +2,49 @@ import { useState } from 'react';
 // import '@fontsource/anton';
 
 import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, X, Target, Users2, Rocket, Trophy, Play, ExternalLink, Eye, ChevronLeft, ChevronRight as ChevronRightIcon, Mail, LinkedinIcon, GithubIcon, Plus, Minus } from 'lucide-react';
-const portfolioItems = [{
-  id: 1,
-  title: 'E-commerce Dashboard',
-  category: 'Web Application',
-  image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80',
-  size: 'large'
-}, {
+ const portfolioItems = [
+//   id: 1,
+//   title: 'E-commerce Dashboard',
+//   category: 'Web Application',
+//   image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80',
+//   size: 'large'
+// }, 
+{
   id: 2,
   title: 'Analytics Platform',
   category: 'Dashboard',
-  image: './assets/imagenes/Group 155.png',
+  image: './assets/imagenes/A (2).png',
   size: 'small'
 }, {
   id: 3,
   title: 'Social Media Manager',
   category: 'Web Application',
-  image: './assets/imagenes/Group 156.png',
+  image: './assets/imagenes/A (1).png',
   size: 'wide'
 }, {
   id: 4,
   title: 'Marketing Website',
   category: 'Website',
-  image: './assets/imagenes/3.png',
+  image: './assets/imagenes/A (3).png',
   size: 'tall'
 }, {
   id: 5,
   title: 'Mobile Banking App',
   category: 'Mobile Application',
-  image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
+  image: './assets/imagenes/A (4).png',
   size: 'large'
 }, {
   id: 6,
   title: 'Healthcare Platform',
   category: 'Web Application',
-  image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
+  image: './assets/imagenes/A (5).png',
   size: 'small'
-}, {
-  id: 7,
-  title: 'Educational Portal',
-  category: 'E-Learning',
-  image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
-  size: 'wide'
-}, {
-  id: 8,
-  title: 'Fitness Tracking',
-  category: 'Mobile Application',
-  image: 'https://images.unsplash.com/photo-1561736778-92e52a7769ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
-  size: 'tall'
-}, {
-  id: 9,
-  title: 'Real Estate Platform',
-  category: 'Web Application',
-  image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
-  size: 'large'
-}, {
-  id: 10,
-  title: 'Travel Booking System',
-  category: 'Web Application',
-  image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
-  size: 'small'
-}, {
-  id: 11,
-  title: 'Event Management',
-  category: 'Platform',
-  image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
-  size: 'wide'
-}, {
-  id: 12,
-  title: 'Food Delivery App',
-  category: 'Mobile Application',
-  image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
-  size: 'small'
-}, {
-  id: 13,
-  title: 'Music Streaming',
-  category: 'Entertainment',
-  image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
-  size: 'large'
-}, {
-  id: 14,
-  title: 'Weather Dashboard',
-  category: 'Utility',
-  image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
-  size: 'small'
-}, {
-  id: 15,
-  title: 'Project Management',
-  category: 'Enterprise',
-  image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80',
-  size: 'wide'
 }];
   const teamMembers = [{
     name: 'Ronan Lavorato',
     role: 'Director Comercial',
     image: './assets/imagenes/Ronan.png',
-    bio: 'Full-stack developer with 8 years of experience in building scalable applications. Passionate about clean code and user experience.',
+    bio: 'Experiencia en desarrollo de negocios por mas de 7 años, lider de diferentes multinacionales, con enfoque en la experiencia del cliente y la optimizacion de procesos.',
     linkedin: '#',
     github: '#',
     email: 'sarah@example.com'
@@ -105,8 +52,8 @@ const portfolioItems = [{
     name: 'Juliano Regidor',
     role: 'Director de Diseño',
     image: './assets/imagenes/Juliano.png', 
-    bio: 'UX/UI designer specialized in creating intuitive and beautiful interfaces. Believes in the power of design to solve problems.',
-    linkedin: '#',
+    bio: 'Especialista en Diseño e implementacion de integraciones, jefe de proyecto en mas de 25 Eccomerce en diferentes Paises.',
+    linkedin: '#https://www.linkedin.com/in/ronan-lavorato/',
     github: '#',
     email: 'michael@example.com'
   }];
@@ -361,7 +308,7 @@ export function App() {
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
                     <MessageCircle className="w-5 h-5 mr-2" />
                     <span className="font-poppins text-sm">
-                      Initial Consultation
+                      Consulta inicial
                     </span>
                   </div>
                 </div>
@@ -388,7 +335,7 @@ export function App() {
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
                     <Target className="w-5 h-5 mr-2" />
                     <span className="font-poppins text-sm">
-                      Strategy Development
+                      Desarrollo de Estrategia
                     </span>
                   </div>
                 </div>
@@ -414,7 +361,7 @@ export function App() {
                 <div className="mt-4 pt-4 border-t border-gray-800">
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
                     <Rocket className="w-5 h-5 mr-2" />
-                    <span className="font-poppins text-sm">Implementation</span>
+                    <span className="font-poppins text-sm">Implementacion</span>
                   </div>
                 </div>
               </div>
@@ -439,7 +386,7 @@ export function App() {
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
                     <Trophy className="w-5 h-5 mr-2" />
                     <span className="font-poppins text-sm">
-                      Continuous Growth
+                      Entrega 
                     </span>
                   </div>
                 </div>
@@ -516,11 +463,10 @@ export function App() {
               Our Work
             </span>
             <h2 className="font-anton text-3xl sm:text-4xl text-white mb-4">
-              Featured Projects
+            Nuestro ultimos trabajos
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Explore our collection of successful projects that showcase our
-              expertise in creating impactful digital solutions.
+              Explora nuestra collecion de diferentes nichos de mercados, centrado en la experiencia de usuario y la optimizacion de ventas.
             </p>
           </div>
           <Carousel items={portfolioItems} />
@@ -671,14 +617,13 @@ export function App() {
         <div className="mt-24 mb-16">
           <div className="text-center mb-12">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              Our Team
+              Nuestro equipo
             </span>
             <h2 className="font-anton text-3xl sm:text-4xl text-white mb-4">
-              Meet the Experts
+              
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Passionate professionals dedicated to creating exceptional digital
-              experiences
+              Mas de 12 años de experiencia en negocios digitales, listos para ayudarte a crecer
             </p>
           </div>
           
