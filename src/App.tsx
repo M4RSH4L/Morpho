@@ -189,10 +189,10 @@ export function App() {
       </div>
       <nav className="w-full px-6 py-4 border-b flex items-center justify-between fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50">
         <div className="flex items-center space-x-2">
-          <img src="./public/assets/imagenes/morpho.png" className="w-6 h-6 text-gray-600"  alt="logotipo morpho" />
-          <span className="font-anton text-xl uppercase tracking-wide">
+          <img src="./public/assets/imagenes/morpho.png" className="w-70 h-12 text-gray-600"  alt="logotipo morpho" />
+          {/* <span className="font-anton text-xl uppercase tracking-wide">
             Eccom
-          </span>
+          </span> */}
         </div>
         <div className="hidden md:flex items-center space-x-6">
           <a href="#" className="text-white hover:text-gray-900">
@@ -484,10 +484,10 @@ export function App() {
         </div>
 
 
-        <div className="mt-24 mb-16 bg-gray-900">
+        <div className="mt-24 mb-16 bg-black">
           <div className="text-center pt-12 mb-8">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              Our Work
+              Tiendas
             </span>
             <h2 className="font-anton text-3xl sm:text-4xl text-white mb-4">
             Nuestro ultimos trabajos
@@ -503,13 +503,13 @@ export function App() {
         <div className="mt-24 mb-32">
           <div className="text-center mb-16">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              Our E-commerce Solution
+              Soluciones a Eccomerce
             </span>
             <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
-              Complete Web Store Solution
+              Como vamos a trabajar con tu tienda web?
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Transform your business with our comprehensive e-commerce platform
+              Desarrollamos tu negocio digital en 3 pasos.
             </p>
           </div>
           <div className="max-w-6xl mx-auto px-4">
