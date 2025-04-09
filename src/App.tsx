@@ -189,7 +189,7 @@ export function App() {
       </div>
       <nav className="w-full px-6 py-4 border-b flex items-center justify-between fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50">
         <div className="flex items-center space-x-2">
-          <img src="./public/assets/imagenes/morpho.png" className="w-70 h-12 text-gray-600"  alt="logotipo morpho" />
+          <img src="./public/assets/imagenes/morpho.png" className="w-70 h-8 text-gray-600"  alt="logotipo morpho" />
           {/* <span className="font-anton text-xl uppercase tracking-wide">
             Eccom
           </span> */}
