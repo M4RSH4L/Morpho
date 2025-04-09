@@ -12,31 +12,31 @@ import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, 
 {
   id: 2,
   title: 'Analytics Platform',
-  category: 'Dashboard',
+  category: 'Celulares',
   image: './assets/imagenes/A (2).png',
   size: 'small'
 }, {
   id: 3,
   title: 'Social Media Manager',
-  category: 'Web Application',
+  category: 'Tecnologia',
   image: './assets/imagenes/A (1).png',
   size: 'wide'
 }, {
   id: 4,
   title: 'Marketing Website',
-  category: 'Website',
+  category: 'Griferia',
   image: './assets/imagenes/A (3).png',
   size: 'tall'
 }, {
   id: 5,
   title: 'Mobile Banking App',
-  category: 'Mobile Application',
+  category: 'Calzados',
   image: './assets/imagenes/A (4).png',
   size: 'large'
 }, {
   id: 6,
   title: 'Healthcare Platform',
-  category: 'Web Application',
+  category: 'Moda',
   image: './assets/imagenes/A (5).png',
   size: 'small'
 }];
@@ -106,10 +106,10 @@ const Carousel = ({ items }: CarouselProps) => {
               />
               <div className="absolute inset-0 flex flex-col justify-end p-4 sm:p-6 md:p-12">
                 <div className=" rounded-xl p-4 sm:p-6 max-w-3xl mx-auto w-full">
-                  {/* <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-2">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-2">
                     {item.title}
-                  </h3> */}
-                  <p className="text-yellow-400 text-sm md:text-base mb-4">{item.category}</p>
+                  </h3>
+                  {/* <p className="text-yellow-400 text-sm md:text-base mb-4">{item.category}</p> */}
                   <div className="flex flex-wrap items-center gap-2 sm:gap-4">
                     <button className="flex items-center space-x-2 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors duration-300">
                       <Eye className="w-4 h-4" />
@@ -308,11 +308,10 @@ export function App() {
               Como Trabajamos
             </span>
             <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
-              Nuestro proceso de Trabajo en 4 pasos
+              Desarrollamos tu tienda en linea en 4 pasos
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              We follow a streamlined approach to deliver exceptional results
-              for your business
+              Seguimos un desarrollo claro para que tener una tienda web sea algo sencillo y accesible.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
@@ -712,172 +711,6 @@ export function App() {
             <ChevronRight className="ml-2 w-5 h-5" />
           </button>
         </div>
-
-        <div className="relative space-y-6 sm:space-y-8 mt-24 mb-24">
-          <div className="text-center mb-16">
-            <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              Our Process
-            </span>
-            <h2 className="font-anton text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
-              How We Make It Happen
-            </h2>
-            <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Our proven four-step approach to transform your business
-            </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-6 px-4">
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-purple-600 rounded-2xl opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
-              <div className="relative p-8 backdrop-blur-sm rounded-2xl border border-gray-800">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-yellow-400/10 border border-yellow-400/20">
-                      <span className="font-anton text-3xl text-yellow-400">
-                        01
-                      </span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-anton text-2xl text-white mb-3 uppercase tracking-wide">
-                      Foundation Phase
-                    </h3>
-                    <div className="space-y-4">
-                      <div className="flex items-center gap-4 group/item">
-                        <div className="p-2 rounded-lg bg-purple-600/10 group-hover/item:bg-purple-600/20 transition-colors">
-                          <Users className="w-5 h-5 text-purple-400" />
-                        </div>
-                        <p className="font-poppins text-gray-300 group-hover/item:text-white transition-colors">
-                          Build Your Audience
-                        </p>
-                      </div>
-                      <div className="flex items-center gap-4 group/item">
-                        <div className="p-2 rounded-lg bg-purple-600/10 group-hover/item:bg-purple-600/20 transition-colors">
-                          <BarChart className="w-5 h-5 text-purple-400" />
-                        </div>
-                        <p className="font-poppins text-gray-300 group-hover/item:text-white transition-colors">
-                          Analytics Setup
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-gray-900 rounded-2xl opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
-              <div className="relative p-8 backdrop-blur-sm rounded-2xl border border-gray-800">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-yellow-400/10 border border-yellow-400/20">
-                      <span className="font-anton text-3xl text-yellow-400">
-                        02
-                      </span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-anton text-2xl text-white mb-3 uppercase tracking-wide">
-                      Growth Phase
-                    </h3>
-                    <div className="space-y-4">
-                      <div className="flex items-center gap-4 group/item">
-                        <div className="p-2 rounded-lg bg-purple-600/10 group-hover/item:bg-purple-600/20 transition-colors">
-                          <MessageCircle className="w-5 h-5 text-purple-400" />
-                        </div>
-                        <p className="font-poppins text-gray-300 group-hover/item:text-white transition-colors">
-                          Engagement Strategies
-                        </p>
-                      </div>
-                      <div className="flex items-center gap-4 group/item">
-                        <div className="p-2 rounded-lg bg-purple-600/10 group-hover/item:bg-purple-600/20 transition-colors">
-                          <ArrowRight className="w-5 h-5 text-purple-400" />
-                        </div>
-                        <p className="font-poppins text-gray-300 group-hover/item:text-white transition-colors">
-                          Conversion Optimization
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-purple-600 rounded-2xl opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
-              <div className="relative p-8 backdrop- -sm rounded-2xl border border-gray-800">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-yellow-400/10 border border-yellow-400/20">
-                      <span className="font-anton text-3xl text-yellow-400">
-                        03
-                      </span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-anton text-2xl text-white mb-3 uppercase tracking-wide">
-                      Scaling Phase
-                    </h3>
-                    <div className="space-y-4">
-                      <div className="flex items-center gap-4 group/item">
-                        <div className="p-2 rounded-lg bg-purple-600/10 group-hover/item:bg-purple-600/20 transition-colors">
-                          <Target className="w-5 h-5 text-purple-400" />
-                        </div>
-                        <p className="font-poppins text-gray-300 group-hover/item:text-white transition-colors">
-                          Market Expansion
-                        </p>
-                      </div>
-                      <div className="flex items-center gap-4 group/item">
-                        <div className="p-2 rounded-lg bg-purple-600/10 group-hover/item:bg-purple-600/20 transition-colors">
-                          <Users2 className="w-5 h-5 text-purple-400" />
-                        </div>
-                        <p className="font-poppins text-gray-300 group-hover/item:text-white transition-colors">
-                          Team Growth
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-gray-900 rounded-2xl opacity-50 group-hover:opacity-70 transition-opacity duration-300"></div>
-              <div className="relative p-8 backdrop-blur-sm rounded-2xl border border-gray-800">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="w-16 h-16 flex items-center justify-center rounded-xl bg-yellow-400/10 border border-yellow-400/20">
-                      <span className="font-anton text-3xl text-yellow-400">
-                        04
-                      </span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-anton text-2xl text-white mb-3 uppercase tracking-wide">
-                      Optimization Phase
-                    </h3>
-                    <div className="space-y-4">
-                      <div className="flex items-center gap-4 group/item">
-                        <div className="p-2 rounded-lg bg-purple-600/10 group-hover/item:bg-purple-600/20 transition-colors">
-                          <Rocket className="w-5 h-5 text-purple-400" />
-                        </div>
-                        <p className="font-poppins text-gray-300 group-hover/item:text-white transition-colors">
-                          Performance Tuning
-                        </p>
-                      </div>
-                      <div className="flex items-center gap-4 group/item">
-                        <div className="p-2 rounded-lg bg-purple-600/10 group-hover/item:bg-purple-600/20 transition-colors">
-                          <Trophy className="w-5 h-5 text-purple-400" />
-                        </div>
-                        <p className="font-poppins text-gray-300 group-hover/item:text-white transition-colors">
-                          Market Leadership
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
       </main>
     </div>;
 }
