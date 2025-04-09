@@ -181,11 +181,11 @@ const FAQ = ({ items }: FAQProps) => {
 };
 export function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  return <div className="w-full min-h-screen bg-gray-900 relative overflow-hidden">
+  return <div className="w-full min-h-screen bg-black relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-24 -right-24 w-96 h-96 bg-gray-900 rounded-full opacity-[0.15] blur-[100px]" />
-        <div className="absolute top-1/2 -left-24 w-96 h-96 bg-purple-600 rounded-full opacity-[0.15] blur-[100px]" />
-        <div className="absolute -bottom-24 right-1/4 w-96 h-96 bg-gray-900 rounded-full opacity-[0.15] blur-[100px]" />
+        <div className="absolute -top-24 -right-24 w-96 h-96 bg-black rounded-full opacity-[0.15] blur-[100px]" />
+        <div className="absolute top-1/2 -left-24 w-96 h-96 bg-black rounded-full opacity-[0.15] blur-[100px]" />
+        <div className="absolute -bottom-24 right-1/4 w-96 h-96 bg-black rounded-full opacity-[0.15] blur-[100px]" />
       </div>
       <nav className="w-full px-6 py-4 border-b flex items-center justify-between fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50">
         <div className="flex items-center space-x-2">
@@ -277,7 +277,7 @@ export function App() {
                 <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80" alt="Video Thumbnail" className=" h-full object-cover opacity-75  w-full " />
                 <div className="absolute inset-0 flex items-center justify-center bg-gray-900/60">
                   <button className="group relative">
-                    <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-yellow-400 rounded-full opacity-75 group-hover:opacity-100 blur transition-opacity"></div>
+                    <div className="absolute -inset-4  rounded-full opacity-75 group-hover:opacity-100 blur transition-opacity"></div>
                     <div className="relative w-20 h-20 flex items-center justify-center rounded-full bg-gray-900 border-2 border-white group-hover:border-yellow-400 transition-colors">
                       <Play className="w-8 h-8 text-white fill-white group-hover:text-yellow-400 transition-colors" />
                     </div>
@@ -516,7 +516,7 @@ export function App() {
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="group relative">
                 <div className="bg-purple-600 absolute inset-0 rounded-2xl transition-all duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
-                <div className="relative bg-gray-900 p-8 rounded-2xl border border-gray-800">
+                <div className="relative bg-black p-8 rounded-2xl border border-gray-800">
                   <div className="flex items-center justify-between mb-8">
                     <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
                       <Eye className="w-6 h-6 text-gray-900" />
@@ -552,7 +552,7 @@ export function App() {
               </div>
               <div className="group relative">
                 <div className="bg-purple-600 absolute inset-0 rounded-2xl transition-all duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
-                <div className="relative bg-gray-900 p-8 rounded-2xl border border-gray-800">
+                <div className="relative bg-black p-8 rounded-2xl border border-gray-800">
                   <div className="flex items-center justify-between mb-8">
                     <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
                       <Rocket className="w-6 h-6 text-gray-900" />
@@ -594,7 +594,7 @@ export function App() {
               </div>
               <div className="group relative">
                 <div className="bg-purple-600 absolute inset-0 rounded-2xl transition-all duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
-                <div className="relative bg-gray-900 p-8 rounded-2xl border border-gray-800">
+                <div className="relative bg-black p-8 rounded-2xl border border-gray-800">
                   <div className="flex items-center justify-between mb-8">
                     <div className="w-12 h-12 bg-yellow-400 rounded-lg flex items-center justify-center">
                       <Users2 className="w-6 h-6 text-gray-900" />
