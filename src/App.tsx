@@ -187,7 +187,7 @@ export function App() {
         <div className="absolute top-1/2 -left-24 w-96 h-96 bg-black rounded-full opacity-[0.15] blur-[100px]" />
         <div className="absolute -bottom-24 right-1/4 w-96 h-96 bg-black rounded-full opacity-[0.15] blur-[100px]" />
       </div>
-      <nav className="w-full px-6 py-4 border-b flex items-center justify-between fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm z-50">
+      <nav className="w-full px-6 py-4 border-b flex items-center justify-between fixed top-0 left-0 right-0  backdrop-blur-sm z-50">
         <div className="flex items-center space-x-2">
           <img src="./assets/imagenes/morpho.png" className="w-70 h-8 text-gray-600"  alt="logotipo morpho" />
           {/* <span className="font-anton text-xl uppercase tracking-wide">
@@ -195,7 +195,7 @@ export function App() {
           </span> */}
         </div>
         <div className="hidden md:flex items-center space-x-6">
-          <a href="#" className="text-white hover:text-gray-900">
+          <a href="#work" className="text-white hover:text-gray-900">
             Features
           </a>
           <a href="#" className="text-white hover:text-gray-900">
@@ -217,10 +217,10 @@ export function App() {
                 <h3 className="font-anton text-xl text-gray-900 uppercase tracking-wide">
                   Main Menu
                 </h3>
-                <a href="#" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
+                <a href="#work" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
                   Features
                 </a>
-                <a href="#" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
+                <a href="#tiendas" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
                   About
                 </a>
                 <a href="#" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
@@ -255,22 +255,22 @@ export function App() {
       <main className={`relative max-w-6xl mx-auto px-4 sm:px-6 transition-all duration-300 ease-in-out ${isMenuOpen ? 'pt-[400px]' : 'pt-24'}`}>
         <div className="relative">
           <div className="text-center mb-12 sm:mb-16">
+            
+            <h1 className="font-anton text-4xl sm:text-5xl md:text-6xl text-white mb-6 leading-tight uppercase tracking-wider">
+            Acompañamos transformaciones de 
+
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
+                {' '}
+                identidades digitales 
+              </span>
+            </h1>
             <div className="inline-block">
-              <span className="font-anton text-base text-yellow-400 sm:text-lg font-semibold mb-2">
+              <span className="font-poppins text-base text-yellow-400 sm:text-lg font-semibold mb-2">
                 Agencia de Diseño
               </span>
             </div>
-            <h1 className="font-anton text-4xl sm:text-5xl md:text-6xl text-white mb-6 leading-tight uppercase tracking-wider">
-              Acompañamos a las personas 
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
-                {' '}
-                en su transformacion Digital. 
-              </span>
-            </h1>
-            <p className="font-poppins text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto px-4 leading-relaxed">
-              Todos los casos de exitos comienzan en una idea.
-            </p>
           </div>
+         
           <div className="max-w-4xl mx-auto mb-24">
             <div className="relative rounded-2xl overflow-hidden bg-gray-800">
               <div className="aspect-video relative">
@@ -302,7 +302,7 @@ export function App() {
             <div className="absolute top-1/2 right-0 w-64 h-64 bg-yellow-400/20 rounded-full blur-3xl"></div>
           </div>
         </div>
-        <div className="max-w-6xl mx-auto my-24">
+        <div  id="work" className="max-w-6xl mx-auto my-24">
           <div className="text-center mb-16">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
               Como Trabajamos
@@ -484,8 +484,8 @@ export function App() {
         </div>
 
 
-        <div className="mt-24 mb-16 bg-black">
-          <div className="text-center pt-12 mb-8">
+        <div  className="mt-24 mb-16 bg-black">
+          <div id="tiendas" className="text-center pt-12 mb-8">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
               Tiendas
             </span>

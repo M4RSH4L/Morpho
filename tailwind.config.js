@@ -7,6 +7,13 @@ const config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primarySky: 'rgb(0, 151, 231)',
+      },
+    },
+  },
+  theme: {
+    extend: {
       fontFamily: {
         anton: ['Anton', 'sans-serif'],
       },
