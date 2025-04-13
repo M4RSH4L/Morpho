@@ -40,7 +40,7 @@ import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, 
     role: 'Director Comercial',
     image: './assets/imagenes/Ronan.png',
     bio: 'Experiencia en desarrollo de negocios por mas de 7 años, lider de diferentes multinacionales, con enfoque en la experiencia del cliente y la optimizacion de procesos.',
-    linkedin: '#',
+    linkedin: 'https://www.linkedin.com/in/ronan-lavorato/',
     github: '#',
     email: 'sarah@example.com'
   }, {
@@ -289,9 +289,17 @@ export function App() {
                     </div>
                   </div>
                 </div>
+                
               </div>
+              
+            </div>
+            <div className="mt-12 text-center">
+              <button className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
+                Agenda tu reunion Gratuita hoy!
+              </button>
             </div>
           </div>
+        
           <div className="absolute inset-0 pointer-events-none">
             <div className="absolute top-1/2 left-0 w-64 h-64 bg-purple-600/30 rounded-full blur-3xl"></div>
             <div className="absolute top-1/2 right-0 w-64 h-64 bg-yellow-400/20 rounded-full blur-3xl"></div>
@@ -657,7 +665,7 @@ export function App() {
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent rounded-xl" />
                   </div>
                   <div className="flex-1 text-center sm:text-left">
-                    <h3 className="font-anton text-xl font-bold text-white mb-1">
+                    <h3 className="font-anton text-xl text-white mb-1">
                       {member.name}
                     </h3>
                     <p className="font-poppins text-gray-700 text-sm mb-3">
