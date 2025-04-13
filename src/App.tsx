@@ -11,31 +11,26 @@ import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, 
 // }, 
 {
   id: 2,
-  title: 'Analytics Platform',
+  title: 'Tecnologia',
   category: 'Celulares',
   image: './assets/imagenes/A (2).png',
   size: 'small'
-}, {
-  id: 3,
-  title: 'Social Media Manager',
-  category: 'Tecnologia',
-  image: './assets/imagenes/A (1).png',
-  size: 'wide'
-}, {
+}, 
+ {
   id: 4,
-  title: 'Marketing Website',
+  title: 'Griferias',
   category: 'Griferia',
   image: './assets/imagenes/A (3).png',
   size: 'tall'
 }, {
   id: 5,
-  title: 'Mobile Banking App',
+  title: 'Calzados',
   category: 'Calzados',
   image: './assets/imagenes/A (4).png',
   size: 'large'
 }, {
   id: 6,
-  title: 'Healthcare Platform',
+  title: 'Ropa de Mujer',
   category: 'Moda',
   image: './assets/imagenes/A (5).png',
   size: 'small'
@@ -111,14 +106,14 @@ const Carousel = ({ items }: CarouselProps) => {
                   </h3>
                   {/* <p className="text-yellow-400 text-sm md:text-base mb-4">{item.category}</p> */}
                   <div className="flex flex-wrap items-center gap-2 sm:gap-4">
-                    <button className="flex items-center space-x-2 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors duration-300">
+                    {/* <button className="flex items-center space-x-2 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors duration-300">
                       <Eye className="w-4 h-4" />
                       <span>Preview</span>
                     </button>
                     <button className="flex items-center space-x-2 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg backdrop-blur-sm transition-colors duration-300">
                       <ExternalLink className="w-4 h-4" />
                       <span>Visit</span>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
