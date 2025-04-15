@@ -1,6 +1,7 @@
 import { useState } from 'react';
 // import '@fontsource/anton';
 
+
 import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, X, Target, Users2, Rocket, Trophy, Play, ExternalLink, Eye, ChevronLeft, ChevronRight as ChevronRightIcon, Mail, LinkedinIcon, GithubIcon, Plus, Minus } from 'lucide-react';
  const portfolioItems = [
 //   id: 1,
@@ -13,16 +14,30 @@ import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, 
   id: 2,
   title: 'Tecnologia',
   category: 'Celulares',
-  image: './assets/imagenes/A (2).png',
+  image: './assets/imagenes/A.png',
   size: 'small'
 }, 
  {
   id: 4,
   title: 'Griferias',
   category: 'Griferia',
-  image: './assets/imagenes/A (3).png',
+  image: './assets/imagenes/A (1).png',
   size: 'tall'
-}, {
+}, 
+{
+  id: 4,
+  title: 'Griferias',
+  category: 'Griferia',
+  image: './assets/imagenes/B1.png',
+  size: 'tall'
+},
+{
+  id: 4,
+  title: 'Griferias',
+  category: 'Griferia',
+  image: './assets/imagenes/B2.png',
+  size: 'tall'
+},{
   id: 5,
   title: 'Calzados',
   category: 'Calzados',
@@ -199,10 +214,12 @@ export function App() {
           <a href="#" className="text-white hover:text-gray-900">
             Contact
           </a>
-          <button   className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
-            Get Started
+          <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")}  className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
+            Contactanos
           </button>
+         
         </div>
+        
         <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? <X className="h-6 w-6 text-gray-600" /> : <Menu className="h-6 w-6 text-gray-600" />}
         </button>
@@ -239,29 +256,34 @@ export function App() {
                   Optimization Phase
                 </a>
               </div>
-              <button className="w-full bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
+              <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="w-full bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
                 Get Started 
               </button>
               
             </div>
             
           </div>}
+          
       </nav>
+      
       <main className={`relative max-w-6xl mx-auto px-4 sm:px-6 transition-all duration-300 ease-in-out ${isMenuOpen ? 'pt-[400px]' : 'pt-24'}`}>
         <div className="relative">
           <div className="text-center mb-12 sm:mb-16">
             
             <h1 className="font-anton text-4xl sm:text-5xl md:text-6xl text-white mb-6 leading-tight uppercase tracking-wider">
-            Acompañamos transformaciones de 
-
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">
+            Acompañamos tu
+            <span className="gradient-text1">
+            {' '}transformacion 
+            </span>
+             de
+              <span className="gradient-text">
                 {' '}
-                identidades digitales 
+                identidad digital
               </span>
             </h1>
             <div className="inline-block">
               <span className="font-poppins text-base text-yellow-400 sm:text-lg font-semibold mb-2">
-                Agencia de Diseño
+                Agencia de Eccomerce.
               </span>
             </div>
           </div>
@@ -269,15 +291,10 @@ export function App() {
           <div className="max-w-4xl mx-auto mb-24">
             <div className="relative rounded-2xl overflow-hidden bg-gray-800">
               <div className="aspect-video relative">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2426&q=80" alt="Video Thumbnail" className=" h-full object-cover opacity-75  w-full " />
+                 <img src="./assets/imagenes/portrait.png" alt="Video Thumbnail" className=" h-full object-cover opacity-75  w-full " /> 
                 <div className="absolute inset-0 flex items-center justify-center bg-gray-900/60">
-                  <button className="group relative">
-                    <div className="absolute -inset-4  rounded-full opacity-75 group-hover:opacity-100 blur transition-opacity"></div>
-                    <div className="relative w-20 h-20 flex items-center justify-center rounded-full bg-gray-900 border-2 border-white group-hover:border-yellow-400 transition-colors">
-                      <Play className="w-8 h-8 text-white fill-white group-hover:text-yellow-400 transition-colors" />
-                    </div>
-                  </button>
-                  <div className="absolute bottom-8 left-8 right-8">
+                
+                  {/* <div className="absolute bottom-8 left-8 right-8">
                     <div className="backdrop-blur-sm bg-gray-900/30 p-6 rounded-xl border border-gray-700">
                       <h3 className="font-anton text-xl text-white mb-2 uppercase tracking-wide">
                         Watch Our Story
@@ -287,14 +304,14 @@ export function App() {
                         the digital age
                       </p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 
               </div>
               
             </div>
             <div className="mt-12 text-center">
-              <button className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
+              <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
                 Agenda tu reunion Gratuita hoy!
               </button>
             </div>
@@ -305,204 +322,6 @@ export function App() {
             <div className="absolute top-1/2 right-0 w-64 h-64 bg-yellow-400/20 rounded-full blur-3xl"></div>
           </div>
         </div>
-        <div  id="work" className="max-w-6xl mx-auto my-24">
-          <div className="text-center mb-16">
-            <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              Como Trabajamos
-            </span>
-            <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
-              Desarrollamos tu tienda en linea en 4 pasos
-            </h2>
-            <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Seguimos un desarrollo claro para que tener una tienda web sea algo sencillo y accesible.
-            </p>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
-            <div className="group relative overflow-hidden rounded-2xl">
-              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
-              <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
-                <div className="mb-4">
-                  <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
-                    <span className="font-['Anton'] text-2xl text-yellow-400">
-                      01
-                    </span>
-                  </div>
-                </div>
-                <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                  Fase de Indagacion
-                </h3>
-                <p className="font-poppins text-gray-300 text-sm flex-grow">
-                  En esta primera instancia se averigua la viabilidad del proyecto y de los tiempos para gestionar un proyecto realista.
-                </p>
-                <div className="mt-4 pt-4 border-t border-gray-800">
-                  <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
-                    <MessageCircle className="w-5 h-5 mr-2" />
-                    <span className="font-poppins text-sm">
-                      Consulta inicial
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-2xl">
-              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
-              <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
-                <div className="mb-4">
-                  <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
-                    <span className="font-['Anton'] text-2xl text-yellow-400">
-                      02
-                    </span>
-                  </div>
-                </div>
-                <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                  Estrategia y Planificacion
-                </h3>
-                <p className="font-poppins text-gray-300 text-sm flex-grow">
-                Creamos planes de proyecto detallados y 
-                diseños de maqueta que se alinean con tu marca y objetivos comerciales.
-                </p>
-                <div className="mt-4 pt-4 border-t border-gray-800">
-                  <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
-                    <Target className="w-5 h-5 mr-2" />
-                    <span className="font-poppins text-sm">
-                      Desarrollo de Estrategia
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-2xl">
-              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
-              <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
-                <div className="mb-4">
-                  <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
-                    <span className="font-['Anton'] text-2xl text-yellow-400">
-                      03
-                    </span>
-                  </div>
-                </div>
-                <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                  Diseño y Desarrollo
-                </h3>
-                <p className="font-poppins text-gray-300 text-sm flex-grow">
-                Nuestro equipo de expertos da vida a tu proyecto 
-                utilizando tecnologías de vanguardia y las mejores prácticas.
-                </p>
-                <div className="mt-4 pt-4 border-t border-gray-800">
-                  <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
-                    <Rocket className="w-5 h-5 mr-2" />
-                    <span className="font-poppins text-sm">Implementacion</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-2xl">
-              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
-              <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
-                <div className="mb-4">
-                  <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
-                    <span className="font-['Anton'] text-2xl text-yellow-400">
-                      04
-                    </span>
-                  </div>
-                </div>
-                <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                Entrega y Autogestion
-                </h3>
-                <p className="font-poppins text-gray-300 text-sm flex-grow">
-                Te entregamos tu tienda lista para vender y te capacitamos para que la gestiones con confianza desde el inicio.
-                </p>
-                <div className="mt-4 pt-4 border-t border-gray-800">
-                  <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
-                    <Trophy className="w-5 h-5 mr-2" />
-                    <span className="font-poppins text-sm">
-                      Entrega 
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="max-w-6xl mx-auto mb-32">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
-            <div className="group relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
-              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
-                <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
-                    <Trophy className="w-8 h-8 text-yellow-400" />
-                  </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">25+</h3>
-                  <p className="font-poppins text-gray-300 text-sm">
-                    Proyectos realizados en 2025.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
-              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
-                <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
-                    <Users2 className="w-8 h-8 text-yellow-400" />
-                  </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">50k+</h3>
-                  <p className="font-poppins text-gray-300 text-sm">
-                    Productos en linea
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
-              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
-                <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
-                    <Target className="w-8 h-8 text-yellow-400" />
-                  </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">98%</h3>
-                  <p className="font-poppins text-gray-300 text-sm">
-                    Clientes satisfechos
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
-              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
-                <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
-                    <Rocket className="w-8 h-8 text-yellow-400" />
-                  </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">180%+</h3>
-                  <p className="font-poppins text-gray-300 text-sm">
-                    De crecimiento en los ultimos 3 meses
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div  className="mt-24 mb-16 bg-black">
-          <div id="tiendas" className="text-center pt-12 mb-8">
-            <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              Tiendas
-            </span>
-            <h2 className="font-anton text-3xl sm:text-4xl text-white mb-4">
-            Nuestro ultimos trabajos
-            </h2>
-            <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Explora nuestra collecion de diferentes nichos de mercados, centrado en la experiencia de usuario y la optimizacion de ventas.
-            </p>
-          </div>
-          <Carousel items={portfolioItems} />
-        </div>
-
-
         <div className="mt-24 mb-32">
           <div className="text-center mb-16">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
@@ -637,13 +456,212 @@ export function App() {
               </div>
             </div>
             <div className="mt-12 text-center">
-              <button className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
+              <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
                 Agenda tu reunion Gratuita hoy!
               </button>
             </div>
           </div>
         </div>
 
+        <div className="max-w-6xl mx-auto mb-32">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+            <div className="group relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
+              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
+                    <Trophy className="w-8 h-8 text-yellow-400" />
+                  </div>
+                  <h3 className="font-['Anton'] text-3xl text-white">25+</h3>
+                  <p className="font-poppins text-gray-300 text-sm">
+                    Proyectos realizados en 2025.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
+              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
+                    <Users2 className="w-8 h-8 text-yellow-400" />
+                  </div>
+                  <h3 className="font-['Anton'] text-3xl text-white">50k+</h3>
+                  <p className="font-poppins text-gray-300 text-sm">
+                    Productos en linea
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
+              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
+                    <Target className="w-8 h-8 text-yellow-400" />
+                  </div>
+                  <h3 className="font-['Anton'] text-3xl text-white">98%</h3>
+                  <p className="font-poppins text-gray-300 text-sm">
+                    Clientes satisfechos
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
+              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
+                    <Rocket className="w-8 h-8 text-yellow-400" />
+                  </div>
+                  <h3 className="font-['Anton'] text-3xl text-white">180%+</h3>
+                  <p className="font-poppins text-gray-300 text-sm">
+                    De crecimiento en los ultimos 3 meses
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div  className="mt-24 mb-16 bg-black">
+          <div id="tiendas" className="text-center pt-12 mb-8">
+            <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
+              Tiendas
+            </span>
+            <h2 className="font-anton text-3xl sm:text-4xl text-white mb-4">
+            Nuestro ultimos trabajos
+            </h2>
+            <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
+              Explora nuestra collecion de diferentes nichos de mercados, centrado en la experiencia de usuario y la optimizacion de ventas.
+            </p>
+          </div>
+          <Carousel items={portfolioItems} />
+        </div>
+
+
+
+        <div  id="work" className="max-w-6xl mx-auto my-24">
+          <div className="text-center mb-16">
+            <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
+              Como Trabajamos
+            </span>
+            <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
+              Desarrollamos tu tienda en linea en 4 pasos
+            </h2>
+            <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
+              Seguimos un desarrollo claro para que tener una tienda web sea algo sencillo y accesible.
+            </p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+            <div className="group relative overflow-hidden rounded-2xl">
+              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
+              <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
+                <div className="mb-4">
+                  <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
+                    <span className="font-['Anton'] text-2xl text-yellow-400">
+                      01
+                    </span>
+                  </div>
+                </div>
+                <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
+                  Fase de Indagacion
+                </h3>
+                <p className="font-poppins text-gray-300 text-sm flex-grow">
+                  En esta primera instancia se averigua la viabilidad del proyecto y de los tiempos para gestionar un proyecto realista.
+                </p>
+                <div className="mt-4 pt-4 border-t border-gray-800">
+                  <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    <span className="font-poppins text-sm">
+                      Consulta inicial
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-2xl">
+              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
+              <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
+                <div className="mb-4">
+                  <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
+                    <span className="font-['Anton'] text-2xl text-yellow-400">
+                      02
+                    </span>
+                  </div>
+                </div>
+                <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
+                  Estrategia y Planificacion
+                </h3>
+                <p className="font-poppins text-gray-300 text-sm flex-grow">
+                Creamos planes de proyecto detallados y 
+                diseños de maqueta que se alinean con tu marca y objetivos comerciales.
+                </p>
+                <div className="mt-4 pt-4 border-t border-gray-800">
+                  <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
+                    <Target className="w-5 h-5 mr-2" />
+                    <span className="font-poppins text-sm">
+                      Desarrollo de Estrategia
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-2xl">
+              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
+              <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
+                <div className="mb-4">
+                  <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
+                    <span className="font-['Anton'] text-2xl text-yellow-400">
+                      03
+                    </span>
+                  </div>
+                </div>
+                <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
+                  Diseño y Desarrollo
+                </h3>
+                <p className="font-poppins text-gray-300 text-sm flex-grow">
+                Nos encargamos de que todo funcione a la perfección desde el primer clic. Llevamos tu proyecto del concepto a la realidad con una implementación sólida, ágil y enfocada en resultados.
+
+
+                </p>
+                <div className="mt-4 pt-4 border-t border-gray-800">
+                  <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
+                    <Rocket className="w-5 h-5 mr-2" />
+                    <span className="font-poppins text-sm">Implementacion</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="group relative overflow-hidden rounded-2xl">
+              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
+              <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
+                <div className="mb-4">
+                  <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
+                    <span className="font-['Anton'] text-2xl text-yellow-400">
+                      04
+                    </span>
+                  </div>
+                </div>
+                <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
+                Entrega y Autogestion
+                </h3>
+                <p className="font-poppins text-gray-300 text-sm flex-grow">
+                Te entregamos tu tienda lista para vender y te capacitamos para que la gestiones con confianza desde el inicio.
+                </p>
+                <div className="mt-4 pt-4 border-t border-gray-800">
+                  <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
+                    <Trophy className="w-5 h-5 mr-2" />
+                    <span className="font-poppins text-sm">
+                      Entrega 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="mt-24 mb-16">
           <div className="text-center mb-12">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
@@ -708,12 +726,7 @@ export function App() {
           </div>
         </div>
 
-        <div className="mt-12 sm:mt-16 text-center px-4">
-          <button className="w-full sm:w-auto bg-gradient-to-r from-gray-900 to-purple-600 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-xl text-base sm:text-lg font-semibold hover:from-gray-800 hover:to-purple-700 inline-flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 backdrop-blur-sm">
-            Start Your Journey
-            <ChevronRight className="ml-2 w-5 h-5" />
-          </button>
-        </div>
+  
       </main>
     </div>;
 }
