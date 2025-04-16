@@ -5,10 +5,16 @@
 
 body {
 
-
+  .bg-yellow-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(97 0 216);
+}
   .text-yellow-400{
-color: yellow;
-
+color: yellow;}
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(234 234 234);
+}
   }
   .gradient-text1 {
     background: yellow ;/* from-purple-600 to-blue-600 */
@@ -21,5 +27,8 @@ color: yellow;
     -webkit-text-fill-color: transparent;
   }
     /* font-family: 'Anton', sans-serif; */
+    .bg-purple-600 {
+      --tw-bg-opacity: 1;
+      background-color: rgb(41 41 41);
   }
   

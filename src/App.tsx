@@ -214,7 +214,7 @@ export function App() {
           <a href="#" className="text-white hover:text-gray-900">
             Contact
           </a>
-          <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")}  className="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
+          <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")}  className="bg-yellow-400 text-white px-4 py-2 rounded-md hover:bg-purple-700">
             Contactanos
           </button>
          
@@ -328,10 +328,13 @@ export function App() {
               Soluciones a Eccomerce
             </span>
             <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
-              Como vamos a trabajar con tu tienda web?
+            ¿Cómo vamos a hacer despegar tu tienda online?
+
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Desarrollamos tu negocio digital en 3 pasos.
+            Lanzamos tu negocio digital en 3 pasos bien simples:
+
+
             </p>
           </div>
           <div className="max-w-6xl mx-auto px-4">
@@ -348,25 +351,25 @@ export function App() {
                     </span>
                   </div>
                   <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
-                    Diseño Profesional
+                  Diseño a medida
                   </h3>
                   <div className="space-y-3 mb-6">
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                        Nos adaptamos al diseño de tu marca
+                      Nos metemos de lleno en tu marca para crear un diseño que refleje su esencia.
                       </span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                        Customizamos los formatos para pc y celular
+                      Adaptamos el diseño para que se vea increíble en compu y en celular
                       </span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                        Optimizamos la experiencia de usuario
+                      Pensamos en cada detalle para que tus clientes disfruten navegar en tu sitio
                       </span>
                     </div>
                   </div>
@@ -390,25 +393,25 @@ export function App() {
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                        Hacemos las integraciones de metodos de pago y metodos de envio
+                      Conectamos todo lo necesario para que tu tienda quede lista para vender.
                       </span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                       Preparacion de la tienda para el lanzamiento
+                      Métodos de pago y envío integrados
                       </span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                        dejamos el sitio optimizado para SEO
+                       Desarrollamos el primer producto viable de tu negocio.
                       </span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                        Marketing integrations
+                      Testeamos cada funcion para que todo funcione a la perfeccion
                       </span>
                     </div>
                   </div>
@@ -426,29 +429,26 @@ export function App() {
                     </span>
                   </div>
                   <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
-                    Autogestion
+                    Entrega y Autogestion
                   </h3>
                   <div className="space-y-3 mb-6">
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                        Preparamos capacitaciones para que pueads gestionar tu tienda
+                        Te capacitamos a ti y a tus socios para que puedan gestionar la tienda sin problemas.
                       </span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                        Order processing system
+                       Integramos tu web en redes y google para que tengas visibilidad.
                       </span>
                     </div>
-                    <div className="flex items-center gap-3 text-gray-300">
-                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                      <span className="font-poppins">Customer management</span>
-                    </div>
+                 
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                        Real-time sales tracking
+                       Tu tienda Web esta lista para que tus clientes compren las 24hs.
                       </span>
                     </div>
                   </div>
@@ -553,6 +553,10 @@ export function App() {
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
               Seguimos un desarrollo claro para que tener una tienda web sea algo sencillo y accesible.
             </p>
+          </div>
+          <div className="absolute inset-0 pointer-events-none">
+            {/* <div className="absolute top-1/2 left-0 w-64 h-64 bg-purple-600/30 rounded-full blur-3xl"></div>
+            <div className="absolute top-1/2 right-0 w-64 h-64 bg-yellow-400/20 rounded-full blur-3xl"></div> */}
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
             <div className="group relative overflow-hidden rounded-2xl">
