@@ -14,40 +14,33 @@ import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, 
   id: 2,
   title: 'Tecnologia',
   category: 'Celulares',
-  image: './assets/imagenes/A.png',
+  image: './assets/imagenes/B1.png',
   size: 'small'
 }, 
  {
   id: 4,
-  title: 'Griferias',
-  category: 'Griferia',
-  image: './assets/imagenes/A (1).png',
+  title: 'Moda Mujer',
+  category: 'moda',
+  image: './assets/imagenes/C (3).png',
   size: 'tall'
 }, 
 {
   id: 4,
-  title: 'Griferias',
+  title: 'Celulares',
   category: 'Griferia',
   image: './assets/imagenes/B1.png',
-  size: 'tall'
-},
-{
-  id: 4,
-  title: 'Griferias',
-  category: 'Griferia',
-  image: './assets/imagenes/B2.png',
   size: 'tall'
 },{
   id: 5,
   title: 'Calzados',
   category: 'Calzados',
-  image: './assets/imagenes/A (4).png',
+  image: './assets/imagenes/C (4).png',
   size: 'large'
 }, {
   id: 6,
-  title: 'Ropa de Mujer',
+  title: 'Sanitarios',
   category: 'Moda',
-  image: './assets/imagenes/A (5).png',
+  image: './assets/imagenes/C (2).png',
   size: 'small'
 }];
   const teamMembers = [{
@@ -68,14 +61,17 @@ import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, 
     email: 'michael@example.com'
   }];
 const faqItems = [{
-  question: 'What technologies do you use?',
-  answer: 'We primarily work with modern web technologies including React, TypeScript, and Node.js. Our tech stack is constantly evolving to incorporate the best tools for each project.'
+  question: '¿Qué incluye el servicio de armado de tienda?',
+  answer: 'Incluye configuración completa en Tiendanube: dominio propio, carga de productos, medios de pago y envío, diseño visual, banners, WhatsApp, redes sociales, y capacitación para que sepas manejarla.'
 }, {
   question: 'Se puede financiar?',
   answer: "Dependiendo del proyecto, podemos ofrecer opciones de financiamiento. Hacemos un analisis de la viabilidad del proyecto y de los tiempos para gestionar un proyecto realista."
 }, {
-  question: 'Como se que mi tienda web es segura?',
-  answer: 'Nuestro objetivo como Agencia, no es solo entregar un producto final, sino que la persona comprenda las ventajas y desventajas en su maxima expresion.'
+  question: '¿Cuánto tarda el proceso?',
+  answer: 'Entre 10 y 15 días hábiles desde que tenemos toda la info necesaria (productos, textos, imágenes, etc.).'
+}, {
+  question: '¿Qué pasa si necesito ayuda después?',
+  answer: 'Contás con soporte post-lanzamiento por X días (esto lo definíamos vos o yo), y también podés contratar mantenimiento mensual o soporte puntual.'
 }, {
   question: 'Quiero una asesoria, la deberia pagar?',
   answer: 'No, la primer asesoria es gratuita. Y es donde ponemos los pies sobre la tierra y analizamos juntos si el proyecto es viable, si hay que hacerle ajustes o si no funciona.'
