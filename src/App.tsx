@@ -449,7 +449,6 @@ export function App() {
         <div className="max-w-6xl mx-auto mb-32">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
             <div className="group relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
               <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
                 <div className="flex flex-col items-center text-center space-y-4">
                   <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
@@ -463,7 +462,6 @@ export function App() {
               </div>
             </div>
             <div className="group relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
               <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
                 <div className="flex flex-col items-center text-center space-y-4">
                   <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
@@ -477,7 +475,6 @@ export function App() {
               </div>
             </div>
             <div className="group relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
               <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
                 <div className="flex flex-col items-center text-center space-y-4">
                   <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
@@ -491,7 +488,6 @@ export function App() {
               </div>
             </div>
             <div className="group relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-gray-900/50 to-gray-900/80 rounded-2xl opacity-80 transition-all duration-300 group-hover:opacity-90" />
               <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
                 <div className="flex flex-col items-center text-center space-y-4">
                   <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
@@ -543,7 +539,6 @@ export function App() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
             <div className="group relative overflow-hidden rounded-2xl">
-              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
               <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
                 <div className="mb-4">
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
@@ -569,7 +564,6 @@ export function App() {
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-2xl">
-              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
               <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
                 <div className="mb-4">
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
@@ -596,7 +590,6 @@ export function App() {
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-2xl">
-              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
               <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
                 <div className="mb-4">
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
@@ -622,7 +615,6 @@ export function App() {
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-2xl">
-              <div className="absolute inset-0 bg-gradient-to-b from-gray-900 via-purple-900/50 to-gray-900 opacity-50 group-hover:opacity-70 transition-all duration-300"></div>
               <div className="relative p-6 border border-gray-800 rounded-2xl backdrop-blur-sm bg-gray-900/30 h-full flex flex-col">
                 <div className="mb-4">
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-400/10 border border-yellow-400/20">
