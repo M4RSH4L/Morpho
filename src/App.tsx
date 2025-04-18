@@ -29,7 +29,7 @@ import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, 
   title: 'Celulares',
   category: 'Griferia',
   image: './assets/imagenes/B1.png',
-  size: 'tall'
+  size: 'tall',
 },{
   id: 5,
   title: 'Calzados',
@@ -288,20 +288,7 @@ export function App() {
             <div className="relative rounded-2xl overflow-hidden bg-gray-800">
               <div className="aspect-video relative">
                  <img src="./assets/imagenes/portrait.png" alt="Video Thumbnail" className=" h-full object-cover opacity-75  w-full " /> 
-                <div className="absolute inset-0 flex items-center justify-center bg-gray-900/60">
-                
-                  {/* <div className="absolute bottom-8 left-8 right-8">
-                    <div className="backdrop-blur-sm bg-gray-900/30 p-6 rounded-xl border border-gray-700">
-                      <h3 className="font-anton text-xl text-white mb-2 uppercase tracking-wide">
-                        Watch Our Story
-                      </h3>
-                      <p className="font-poppins text-gray-300 text-sm">
-                        Discover how we help businesses transform and grow in
-                        the digital age
-                      </p>
-                    </div>
-                  </div> */}
-                </div>
+               
                 
               </div>
               
