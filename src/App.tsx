@@ -2,7 +2,35 @@ import { useState } from 'react';
 // import '@fontsource/anton';
 
 
-import { ChevronRight, Users, BarChart, MessageCircle, ArrowRight, Globe, Menu, X, Target, Users2, Rocket, Trophy, Play, ExternalLink, Eye, ChevronLeft, ChevronRight as ChevronRightIcon, Mail, LinkedinIcon, GithubIcon, Plus, Minus } from 'lucide-react';
+import {  ChevronRight,
+  Users,
+  BarChart,
+  MessageCircle,
+  ArrowRight,
+  Globe,
+  Menu,
+  X,
+  Target,
+  Users2,
+  Rocket,
+  Trophy,
+  Play,
+  ExternalLink,
+  Eye,
+  ChevronLeft,
+  ChevronRight as ChevronRightIcon,
+  Mail,
+  LinkedinIcon,
+  GithubIcon,
+  Plus,
+  Minus,
+  Phone,
+  Mail as MailIcon,
+  MapPin,
+  TwitterIcon,
+  InstagramIcon,
+  FacebookIcon,
+  Calendar,} from 'lucide-react';
  const portfolioItems = [
 //   id: 1,
 //   title: 'E-commerce Dashboard',
@@ -705,7 +733,106 @@ export function App() {
           </div>
         </div>
 
-  
+   {/* Contact Section */}
+   <div className="mt-24 mb-32">
+          <div className="text-center mb-16">
+            <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
+              Contactanos
+            </span>
+            <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
+              Trabajemos juntos en tu tienda online.
+            </h2>
+            <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
+              Estas listo para transformar tu negocio?
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="bg-gray-900 border border-gray-800 rounded-2xl p-8 sm:p-12">
+              <div className="grid md:grid-cols-2 gap-12">
+                <div className="space-y-8">
+                  <div>
+                    <h3 className="font-['Anton'] text-xl text-white mb-4 uppercase">
+                      Contacto
+                    </h3>
+                    <div className="space-y-4">
+                      <a
+                        href="tel:+1234567890"
+                        className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors"
+                      >
+                        <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
+                          <Phone className="w-5 h-5 text-white" />
+                        </div>
+                        <span className="font-poppins">+54 9 (221) 2532-3103</span>
+                      </a>
+                      <a
+                        href="mailto:hello@example.com"
+                        className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors"
+                      >
+                        <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
+                          <MailIcon className="w-5 h-5 text-white" />
+                        </div>
+                        <span className="font-poppins">hello@example.com</span>
+                      </a>
+                      <div className="flex items-center gap-3 text-gray-300">
+                        <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
+                          <MapPin className="w-5 h-5 text-white" />
+                        </div>
+                        <span className="font-poppins">
+                          Buenos Aires, Argentina
+                          <br />
+                          Ciudad de La Plata.
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="font-['Anton'] text-xl text-white mb-4 uppercase">
+                      Seguinos!
+                    </h3>
+                    <div className="flex gap-4">
+                      <a
+                        href="#https://www.linkedin.com/company/morpho-agencia/"
+                        className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
+                      >
+                        <LinkedinIcon className="w-5 h-5 text-white" />
+                      </a>
+                      <a
+                        href="#"
+                        className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
+                      >
+                        <TwitterIcon className="w-5 h-5 text-white" />
+                      </a>
+                      <a
+                        href="#"
+                        className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
+                      >
+                        <InstagramIcon className="w-5 h-5 text-white" />
+                      </a>
+                      <a
+                        href="#"
+                        className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
+                      >
+                        <FacebookIcon className="w-5 h-5 text-white" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="space-y-6">
+                  <button className="w-full bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300 flex items-center justify-center gap-2">
+                    <Mail className="w-5 h-5" />
+                    Envianos un mensaje
+                  </button>
+                  <button className="w-full bg-purple-600 text-white px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-purple-700 transition-colors duration-300 flex items-center justify-center gap-2">
+                    <Calendar className="w-5 h-5" />
+                    Agenda una llamada
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
       </main>
     </div>;
 }
