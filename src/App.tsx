@@ -291,9 +291,47 @@ export function App() {
       </nav>
       
       <main className={`relative max-w-6xl mx-auto px-4 sm:px-6 transition-all duration-300 ease-in-out ${isMenuOpen ? 'pt-[400px]' : 'pt-24'}`}>
-        <div className="relative">
-          <div className="text-center mb-12 sm:mb-16">
-            
+      <div className="relative min-h-[80vh] md:min-h-[70vh] flex items-center md:items-start md:pt-20 justify-center my-32 overflow-hidden">
+          <div className="absolute inset-0 overflow-hidden">
+            <div className="absolute top-0 left-[5%] w-32 md:w-48 h-40 md:h-64 rounded-2xl overflow-hidden transform -rotate-6 hover:rotate-0 transition-transform duration-500">
+              <img
+                src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="E-commerce"
+                className="w-full h-full object-cover opacity-60 md:opacity-100"
+              />
+              <div className="absolute inset-0 bg-gray-900/60 md:bg-gray-900/40 backdrop-blur-[2px]"></div>
+            </div>
+            <div className="absolute top-1/4 right-[10%] w-36 md:w-56 h-28 md:h-40 rounded-2xl overflow-hidden transform rotate-6 hover:rotate-0 transition-transform duration-500">
+              <img
+                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Digital Marketing"
+                className="w-full h-full object-cover opacity-60 md:opacity-100"
+              />
+              <div className="absolute inset-0 bg-gray-900/60 md:bg-gray-900/40 backdrop-blur-[2px]"></div>
+            </div>
+            <div className="absolute bottom-0 left-[15%] w-28 md:w-40 h-40 md:h-56 rounded-2xl overflow-hidden transform rotate-12 hover:rotate-0 transition-transform duration-500">
+              <img
+                src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Mobile Commerce"
+                className="w-full h-full object-cover opacity-60 md:opacity-100"
+              />
+              <div className="absolute inset-0 bg-gray-900/60 md:bg-gray-900/40 backdrop-blur-[2px]"></div>
+            </div>
+            <div className="absolute bottom-[20%] right-[5%] w-32 md:w-48 h-32 md:h-48 rounded-2xl overflow-hidden transform -rotate-12 hover:rotate-0 transition-transform duration-500">
+              <img
+                src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Digital Solutions"
+                className="w-full h-full object-cover opacity-60 md:opacity-100"
+              />
+              <div className="absolute inset-0 bg-gray-900/60 md:bg-gray-900/40 backdrop-blur-[2px]"></div>
+            </div>
+            <div className="absolute top-1/4 left-1/4 w-48 md:w-64 h-48 md:h-64 bg-purple-600/20 rounded-full blur-3xl"></div>
+            <div className="absolute bottom-1/4 right-1/4 w-48 md:w-64 h-48 md:h-64 bg-yellow-400/10 rounded-full blur-3xl"></div>
+          </div>
+          <div className="relative z-10 text-center max-w-4xl mx-auto px-4 mt-0 md:-mt-8">
+            <span className="font-['Anton'] inline-block text-yellow-400 text-xl sm:text-2xl mb-4 uppercase tracking-wide">
+              Agencia de E-commerce
+            </span>
             <h1 className="font-anton text-4xl sm:text-5xl md:text-6xl text-white mb-6 leading-tight uppercase tracking-wider">
             Acompañamos tu
             <span className="gradient-text1">
@@ -305,34 +343,20 @@ export function App() {
                 identidad digital
               </span>
             </h1>
-            <div className="inline-block">
-              <span className="font-poppins text-base text-yellow-400 sm:text-lg font-semibold mb-2">
-                Agencia de Eccomerce.
-              </span>
-            </div>
-          </div>
-         
-          <div className="max-w-4xl mx-auto mb-24">
-            <div className="relative rounded-2xl overflow-hidden bg-gray-800">
-              <div className="aspect-video relative">
-                 <img src="./assets/imagenes/portrait.png" alt="Video Thumbnail" className=" h-full object-cover opacity-75  w-full " /> 
-               
-                
-              </div>
-              
-            </div>
-            <div className="mt-12 text-center">
-              <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
+            <p className="font-poppins text-lg sm:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
+              Potencia tu negocio con soluciones digitales innovadoras y
+              estrategias personalizadas para el éxito en línea.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
                 Agenda tu reunion Gratuita hoy!
               </button>
             </div>
           </div>
-        
-          <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute top-1/2 left-0 w-64 h-64 bg-purple-600/30 rounded-full blur-3xl"></div>
-            <div className="absolute top-1/2 right-0 w-64 h-64 bg-yellow-400/20 rounded-full blur-3xl"></div>
-          </div>
         </div>
+      
+     
+     
         <div className="mt-24 mb-32">
           <div className="text-center mb-16">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
@@ -790,8 +814,8 @@ export function App() {
                       Seguinos!
                     </h3>
                     <div className="flex gap-4">
-                      <a
-                        href="#https://www.linkedin.com/company/morpho-agencia/"
+                      <a onClick={() => window.open("https://www.linkedin.com/company/morpho-agencia/", "_blank")}
+                        
                         className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
                       >
                         <LinkedinIcon className="w-5 h-5 text-white" />
@@ -802,7 +826,7 @@ export function App() {
                       >
                         <TwitterIcon className="w-5 h-5 text-white" />
                       </a>
-                      <a
+                      <a onClick={() => window.open("https://www.instagram.com/meta.morpho.io/", "_blank")}
                         href="#"
                         className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
                       >
