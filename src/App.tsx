@@ -295,8 +295,8 @@ export function App() {
           
       </nav>
       
-      <main className={`relative max-w-6xl mx-auto px-4 sm:px-6 transition-all duration-300 ease-in-out ${isMenuOpen ? 'pt-[400px]' : 'pt-24'}`}>
-      <div className="relative min-h-[80vh] md:min-h-[70vh] flex items-center md:items-start md:pt-20 justify-center my-32 overflow-hidden">
+      <main className={`relative max-w-6xl mx-auto px-4 sm:px-6 transition-all duration-300 ease-in-out ${isMenuOpen ? 'pt-[400px]' : 'pt-14'}`}>
+      <div className="relative min-h-[80vh] md:min-h-[70vh] flex items-center md:items-start md:pt-20 justify-center my-12 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-0 left-[5%] w-32 md:w-48 h-40 md:h-64 rounded-2xl overflow-hidden transform -rotate-6 hover:rotate-0 transition-transform duration-500">
               <img
@@ -316,7 +316,7 @@ export function App() {
             </div>
             <div className="absolute bottom-0 left-[15%] w-28 md:w-40 h-40 md:h-56 rounded-2xl overflow-hidden transform rotate-12 hover:rotate-0 transition-transform duration-500">
               <img
-                src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src='./assets/imagenes/bc-store.png'
                 alt="Mobile Commerce"
                 className="w-full h-full object-cover opacity-60 md:opacity-100"
               />
@@ -338,11 +338,11 @@ export function App() {
               Agencia de E-commerce
             </span>
             <h1 className="font-anton text-4xl sm:text-5xl md:text-6xl text-white mb-6 leading-tight uppercase tracking-wider">
-            Acompañamos tu
+            Te ayudamos a 
             <span className="gradient-text1">
-            {' '}transformacion 
+            {' '}crear
             </span>
-             de
+            tu
               <span className="gradient-text">
                 {' '}
                 identidad digital
