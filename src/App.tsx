@@ -229,19 +229,24 @@ export function App() {
           </span> */}
         </div>
         <div className="hidden md:flex items-center space-x-6">
+          
+          <a href="#" className="text-white hover:text-gray-900">
+            Home
+          </a>
+          <a href="#tiendas" className="text-white hover:text-gray-900">
+            Tiendas
+          </a>
           <a href="#work" className="text-white hover:text-gray-900">
-            Features
+            Proceso
           </a>
-          <a href="#" className="text-white hover:text-gray-900">
-            About
-          </a>
-          <a href="#" className="text-white hover:text-gray-900">
-            Contact
+         
+          <a href="#contacto" className="text-white hover:text-gray-900">
+            Contacto
           </a>
           <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")}  className="bg-yellow-400 text-white px-4 py-2 rounded-md hover:bg-purple-700">
             Contactanos
           </button>
-         
+          
         </div>
         
         <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -257,10 +262,10 @@ export function App() {
                   Features
                 </a>
                 <a href="#tiendas" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
-                  About
+                  Nosotros
                 </a>
-                <a href="#" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
-                  Contact
+                <a href="#contacto" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
+                  Contacto
                 </a>
               </div>
               <div className="space-y-2">
@@ -295,7 +300,7 @@ export function App() {
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-0 left-[5%] w-32 md:w-48 h-40 md:h-64 rounded-2xl overflow-hidden transform -rotate-6 hover:rotate-0 transition-transform duration-500">
               <img
-                src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src='./assets/imagenes/bc-design.png'
                 alt="E-commerce"
                 className="w-full h-full object-cover opacity-60 md:opacity-100"
               />
@@ -303,7 +308,7 @@ export function App() {
             </div>
             <div className="absolute top-1/4 right-[10%] w-36 md:w-56 h-28 md:h-40 rounded-2xl overflow-hidden transform rotate-6 hover:rotate-0 transition-transform duration-500">
               <img
-                src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src='./assets/imagenes/bc-michi.png'
                 alt="Digital Marketing"
                 className="w-full h-full object-cover opacity-60 md:opacity-100"
               />
@@ -758,8 +763,8 @@ export function App() {
         </div>
 
    {/* Contact Section */}
-   <div className="mt-24 mb-32">
-          <div className="text-center mb-16">
+   <div id='contacto' className="text-center mb-16">
+   <div className="mt-24 mb-32" >
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
               Contactanos
             </span>
@@ -842,11 +847,11 @@ export function App() {
                   </div>
                 </div>
                 <div className="space-y-6">
-                  <button className="w-full bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300 flex items-center justify-center gap-2">
+                  <button onClick={() => window.open("https://wa.me/message/HPC3HAYGTB2FA1", "w.ap")} className="w-full bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300 flex items-center justify-center gap-2">
                     <Mail className="w-5 h-5" />
                     Envianos un mensaje
                   </button>
-                  <button className="w-full bg-purple-600 text-white px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-purple-700 transition-colors duration-300 flex items-center justify-center gap-2">
+                  <button onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="w-full bg-purple-600 text-white px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-purple-700 transition-colors duration-300 flex items-center justify-center gap-2">
                     <Calendar className="w-5 h-5" />
                     Agenda una llamada
                   </button>
