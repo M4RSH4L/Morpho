@@ -77,7 +77,7 @@ import {  ChevronRight,
     name: 'Juliano Regidor',
     role: 'Director de Diseño',
     image: './assets/imagenes/Juliano.png', 
-    bio: 'Especialista en Diseño e implementacion de integraciones, jefe de proyecto en mas de 25 Eccomerce en diferentes Paises.',
+    bio: 'Especialista en Diseño e implementacion de integraciones, jefe de proyecto en mas de 25 Ecommerce en diferentes Paises.',
     linkedin: '#https://www.linkedin.com/in/ronan-lavorato/',
     github: '#',
     email: 'michael@example.com'
@@ -313,7 +313,7 @@ export function App() {
           </div>
           <div className="relative z-10 text-center max-w-4xl mx-auto px-4 mt-0 md:-mt-8">
             <span className="font-['Anton'] inline-block text-yellow-400 text-xl sm:text-2xl mb-4 uppercase tracking-wide">
-              Agencia de E-commerce
+              Agencia de Ecommerce
             </span>
             <h1 className="font-anton text-4xl sm:text-5xl md:text-6xl text-white mb-6 leading-tight uppercase tracking-wider">
             Te ayudamos a 
@@ -343,7 +343,7 @@ export function App() {
         <div className="mt-24 mb-32">
           <div className="text-center mb-16">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              Soluciones a Eccomerce
+              Soluciones a Ecommerce
             </span>
             <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
             ¿Cómo vamos a hacer despegar tu tienda online?
