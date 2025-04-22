@@ -42,35 +42,29 @@ import {  ChevronRight,
   id: 2,
   title: 'Tecnologia',
   category: 'Celulares',
-  image: './assets/imagenes/B1.png',
+  image: './assets/imagenes/Tecnologia.png',
   size: 'small'
 }, 
  {
   id: 4,
   title: 'Moda Mujer',
   category: 'moda',
-  image: './assets/imagenes/C (3).png',
+  image: './assets/imagenes/Moda.png',
   size: 'tall'
 }, 
 {
   id: 4,
-  title: 'Celulares',
+  title: 'Sanitario',
   category: 'Griferia',
-  image: './assets/imagenes/B1.png',
+  image: './assets/imagenes/Sanitarios.png',
   size: 'tall',
 },{
   id: 5,
   title: 'Calzados',
   category: 'Calzados',
-  image: './assets/imagenes/C (4).png',
+  image: './assets/imagenes/Zapatillas.png',
   size: 'large'
-}, {
-  id: 6,
-  title: 'Sanitarios',
-  category: 'Moda',
-  image: './assets/imagenes/C (2).png',
-  size: 'small'
-}];
+},];
   const teamMembers = [{
     name: 'Ronan Lavorato',
     role: 'Director Comercial',
