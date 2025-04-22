@@ -237,7 +237,7 @@ export function App() {
           <a href="#contacto" className="text-white hover:text-gray-900">
             Contacto
           </a>
-          <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")}  className="bg-yellow-400 text-white px-4 py-2 rounded-md hover:bg-purple-700">
+          <button  onClick={() => window.open("https://wa.me/message/HPC3HAYGTB2FA1", "w.ap")}  className="bg-yellow-400 text-white px-4 py-2 rounded-md hover:bg-purple-700">
             Contactanos
           </button>
           
@@ -262,25 +262,9 @@ export function App() {
                   Contacto
                 </a>
               </div>
-              <div className="space-y-2">
-                <h3 className="font-anton text-xl text-gray-900 uppercase tracking-wide">
-                  Categories
-                </h3>
-                <a href="#" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
-                  Foundation Phase
-                </a>
-                <a href="#" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
-                  Growth Phase
-                </a>
-                <a href="#" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
-                  Scaling Phase
-                </a>
-                <a href="#" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
-                  Optimization Phase
-                </a>
-              </div>
-              <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="w-full bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
-                Get Started 
+          
+              <button  onClick={() => window.open("https://wa.me/message/HPC3HAYGTB2FA1", "w.ap")} className="w-full bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
+                Contactar
               </button>
               
             </div>
