@@ -320,7 +320,7 @@ export function App() {
             <span className="gradient-text1">
             {' '}crear
             </span>
-            tu
+            &nbsp;tu
               <span className="gradient-text">
                 {' '}
                 identidad digital
