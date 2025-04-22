@@ -769,9 +769,9 @@ export function App() {
                         <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
                           <Phone className="w-5 h-5 text-white" />
                         </div>
-                        <span className="font-poppins">+54 9 (221) 2532-3103</span>
+                        <span className="font-poppins">+54 9 (11) 2532-3103</span>
                       </a>
-                      <a
+                      {/* <a
                         href="mailto:hello@example.com"
                         className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors"
                       >
@@ -779,7 +779,7 @@ export function App() {
                           <MailIcon className="w-5 h-5 text-white" />
                         </div>
                         <span className="font-poppins">hello@example.com</span>
-                      </a>
+                      </a> */}
                       <div className="flex items-center gap-3 text-gray-300">
                         <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
                           <MapPin className="w-5 h-5 text-white" />
