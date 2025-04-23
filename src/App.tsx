@@ -87,16 +87,16 @@ const faqItems = [{
   answer: 'Incluye configuración completa en Tiendanube: dominio propio, carga de productos, medios de pago y envío, diseño visual, banners, WhatsApp, redes sociales, y capacitación para que sepas manejarla.'
 }, {
   question: 'Se puede financiar?',
-  answer: "Dependiendo del proyecto, podemos ofrecer opciones de financiamiento. Hacemos un analisis de la viabilidad del proyecto y de los tiempos para gestionar un proyecto realista."
+  answer: "Dependiendo del proyecto, podemos ofrecer opciones de financiamiento."
 }, {
   question: '¿Cuánto tarda el proceso?',
-  answer: 'Entre 10 y 15 días hábiles desde que tenemos toda la info necesaria (productos, textos, imágenes, etc.).'
+  answer: 'Entre 10 y 15 días hábiles desde que tenemos toda la informacion necesaria (productos, imágenes, etc.).'
 }, {
   question: '¿Qué pasa si necesito ayuda después?',
-  answer: 'Contás con soporte post-lanzamiento por X días (esto lo definíamos vos o yo), y también podés contratar mantenimiento mensual o soporte puntual.'
+  answer: 'Contás con soporte post-lanzamiento coordinado por el manager de proyecto, y también podés contratar mantenimiento mensual o soporte puntual.'
 }, {
   question: 'Quiero una asesoria, la deberia pagar?',
-  answer: 'No, la primer asesoria es gratuita. Y es donde ponemos los pies sobre la tierra y analizamos juntos si el proyecto es viable, si hay que hacerle ajustes o si no funciona.'
+  answer: 'No, la primer asesoria es totalmente gratuita. Y es donde te conocemos a ti y a tu negocio o idea de negocio. Te ayudamos a definir el proyecto y su viabilidad.'
 }];
 type CarouselProps = {
   items: {
