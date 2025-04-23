@@ -67,7 +67,7 @@ import {  ChevronRight,
 },];
   const teamMembers = [{
     name: 'Ronan Lavorato',
-    role: 'Director Comercial',
+    role: 'BDM',
     image: './assets/imagenes/Ronan.png',
     bio: 'Experiencia en desarrollo de negocios por mas de 7 años, lider de diferentes multinacionales, con enfoque en la experiencia del cliente y la optimizacion de procesos.',
     linkedin: 'https://www.linkedin.com/in/ronan-lavorato/',
@@ -75,7 +75,7 @@ import {  ChevronRight,
     email: 'sarah@example.com'
   }, {
     name: 'Juliano Regidor',
-    role: 'Director de Diseño',
+    role: 'Designer',
     image: './assets/imagenes/Juliano.png', 
     bio: 'Especialista en Diseño e implementacion de integraciones, jefe de proyecto en mas de 25 Ecommerce en diferentes Paises.',
     linkedin: '#https://www.linkedin.com/in/ronan-lavorato/',
@@ -332,7 +332,7 @@ export function App() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
-                Agenda tu reunion Gratuita hoy!
+                Agenda tu reunion Gratuita!
               </button>
             </div>
           </div>
@@ -475,7 +475,7 @@ export function App() {
             </div>
             <div className="mt-12 text-center">
               <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
-                Agenda tu reunion Gratuita hoy!
+                Agenda tu reunion Gratuita!
               </button>
             </div>
           </div>
@@ -591,7 +591,7 @@ export function App() {
                 <div className="mt-4 pt-4 border-t border-gray-800">
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
                     <MessageCircle className="w-5 h-5 mr-2" />
-                    <span className="font-poppins text-sm">
+                    <span onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="font-poppins text-sm">
                       Consulta inicial
                     </span>
                   </div>
@@ -690,8 +690,8 @@ export function App() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 px-4">
-            {teamMembers.map(member => <div key={member.name} className="group relative overflow-hidden rounded-xl border border-gray-800 bg-gray-900/50 backdrop-blur-sm hover:bg-gray-900/70 transition-all duration-300">
-                <div className="p-6 flex flex-col sm:flex-row gap-6">
+            {teamMembers.map(member => <div key={member.name} className="group relative overflow-hidden rounded-xl border border-gray-800  backdrop-blur-sm  transition-all duration-300">
+                <div className="p-6 flex flex-col  gap-6">
                   <div className="relative w-32 h-32 mx-auto sm:mx-0">
                     <img src={member.image} alt={member.name} className="w-full h-full object-cover rounded-xl" />
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent rounded-xl" />
@@ -710,9 +710,7 @@ export function App() {
                       <a href={member.linkedin} className="text-gray-400 hover:text-white transition-colors">
                         <LinkedinIcon className="w-5 h-5" />
                       </a>
-                      <a href={member.github} className="text-gray-400 hover:text-white transition-colors">
-                        <GithubIcon className="w-5 h-5" />
-                      </a>
+                    
                       <a href={`mailto:${member.email}`} className="text-gray-400 hover:text-white transition-colors">
                         <Mail className="w-5 h-5" />
                       </a>
@@ -754,7 +752,7 @@ export function App() {
             </p>
           </div>
           <div className="max-w-4xl mx-auto px-4">
-            <div className="bg-gray-900 border border-gray-800 rounded-2xl p-8 sm:p-12">
+            <div className=" border border-gray-800 rounded-2xl p-8 sm:p-12">
               <div className="grid md:grid-cols-2 gap-12">
                 <div className="space-y-8">
                   <div>

@@ -31,4 +31,6 @@ color: yellow;}
       --tw-bg-opacity: 1;
       background-color: rgb(41 41 41);
   }
-  
+  .bg-gray-900\/30 {
+    background-color: #0000004d;
+}
