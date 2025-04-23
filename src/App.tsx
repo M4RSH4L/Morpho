@@ -761,7 +761,7 @@ export function App() {
                     </h3>
                     <div className="space-y-4">
                       <a
-                        href="tel:+1234567890"
+                        href="tel:+54 9 (11) 2532-3103"
                         className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors"
                       >
                         <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
