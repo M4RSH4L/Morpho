@@ -17,7 +17,7 @@ color: yellow;}
 }
   }
   .gradient-text1 {
-    background: yellow ;/* from-purple-600 to-blue-600 */
+    background: rgb(255, 255, 255) ;/* from-purple-600 to-blue-600 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
