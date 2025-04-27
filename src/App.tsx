@@ -137,16 +137,9 @@ const Carousel = ({ items }: CarouselProps) => {
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-2">
                     {item.title}
                   </h3>
-                  {/* <p className="text-yellow-400 text-sm md:text-base mb-4">{item.category}</p> */}
+                  
                   <div className="flex flex-wrap items-center gap-2 sm:gap-4">
-                    {/* <button className="flex items-center space-x-2 bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors duration-300">
-                      <Eye className="w-4 h-4" />
-                      <span>Preview</span>
-                    </button>
-                    <button className="flex items-center space-x-2 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-lg backdrop-blur-sm transition-colors duration-300">
-                      <ExternalLink className="w-4 h-4" />
-                      <span>Visit</span>
-                    </button> */}
+                
                   </div>
                 </div>
               </div>
@@ -231,7 +224,7 @@ export function App() {
             Tiendas
           </a>
           <a href="#work" className="text-white hover:text-gray-900">
-            Proceso
+            Metodo
           </a>
          
           <a href="#contacto" className="text-white hover:text-gray-900">
@@ -323,7 +316,7 @@ export function App() {
             &nbsp;tu
               <span className="gradient-text">
                 {' '}
-                identidad digital
+                tienda en linea.
               </span>
             </h1>
             <p className="font-poppins text-lg sm:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
