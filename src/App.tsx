@@ -325,7 +325,7 @@ export function App() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
-                Agenda tu reunion Gratuita!
+                Agenda una reunion Gratuita!
               </button>
             </div>
           </div>
@@ -339,11 +339,11 @@ export function App() {
               Soluciones a Ecommerce
             </span>
             <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
-            ¿Cómo vamos a hacer despegar tu tienda online?
+            ¿Cómo va a funcionar tu tienda online?
 
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-            Lanzamos tu negocio digital en 3 pasos bien simples:
+            Pensemos en 3 fases para que sepas lo que se hace en cada momento.
 
 
             </p>
@@ -362,7 +362,7 @@ export function App() {
                     </span>
                   </div>
                   <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
-                  Diseño a medida
+                  Exploracion.
                   </h3>
                   <div className="space-y-3 mb-6">
                     <div className="flex items-center gap-3 text-gray-300">
@@ -398,7 +398,7 @@ export function App() {
                     </span>
                   </div>
                   <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
-                    Puesta en Marcha
+                   Desarrollo
                   </h3>
                   <div className="space-y-3 mb-6">
                     <div className="flex items-center gap-3 text-gray-300">
@@ -440,7 +440,7 @@ export function App() {
                     </span>
                   </div>
                   <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
-                    Entrega y Autogestion
+                    Autonomia
                   </h3>
                   <div className="space-y-3 mb-6">
                     <div className="flex items-center gap-3 text-gray-300">
