@@ -1,6 +1,6 @@
 import { useState } from 'react';
 // import '@fontsource/anton';
-
+import { StepsSection } from './stepsSection'
 
 import {  ChevronRight,
   Users,
@@ -474,17 +474,19 @@ export function App() {
           </div>
         </div>
 
-        <div className="max-w-6xl mx-auto mb-32">
+
+        <StepsSection />
+        {/* <div className="max-w-6xl mx-auto mb-32">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
             <div className="group relative overflow-hidden">
               <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
                 <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
-                    <Trophy className="w-8 h-8 text-yellow-400" />
+                  <div className="">
+                  <img src="./assets/imagenes/Tienda nube.png" alt=""  className="group-hover:scale-110 transition-transform duration-300 rounded-xl w-16 h-16"/>
                   </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">25+</h3>
+                  <h3 className="font-['Anton'] text-3xl text-white">Tienda nube</h3>
                   <p className="font-poppins text-gray-300 text-sm">
-                    Proyectos realizados en 2025.
+                    Partner
                   </p>
                 </div>
               </div>
@@ -492,12 +494,12 @@ export function App() {
             <div className="group relative overflow-hidden">
               <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
                 <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
-                    <Users2 className="w-8 h-8 text-yellow-400" />
+                <div className="">
+                  <img src="./assets/imagenes/meta-ads.png" alt=""  className="group-hover:scale-110 transition-transform duration-300 rounded-xl w-16 h-16"/>
                   </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">50k+</h3>
+                  <h3 className="font-['Anton'] text-3xl text-white">Meta ADS</h3>
                   <p className="font-poppins text-gray-300 text-sm">
-                    Productos en linea
+                    Partner
                   </p>
                 </div>
               </div>
@@ -505,16 +507,16 @@ export function App() {
             <div className="group relative overflow-hidden">
               <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
                 <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
-                    <Target className="w-8 h-8 text-yellow-400" />
+                <div className="">
+                  <img src="./assets/imagenes/coding.jpg" alt=""  className="group-hover:scale-110 transition-transform duration-300 rounded-xl w-16 h-16"/>
                   </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">98%</h3>
+                  <h3 className="font-['Anton'] text-3xl text-white">Coding</h3>
                   <p className="font-poppins text-gray-300 text-sm">
-                    Clientes satisfechos
+                    High-Low Code
                   </p>
                 </div>
               </div>
-            </div>
+            </div>  
             <div className="group relative overflow-hidden">
               <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
                 <div className="flex flex-col items-center text-center space-y-4">
@@ -529,7 +531,7 @@ export function App() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
 
         <div  className="mt-24 mb-16 bg-black">
@@ -829,7 +831,7 @@ export function App() {
             </div>
           </div>
         </div>
-
+        
        
       </main>
     </div>;
