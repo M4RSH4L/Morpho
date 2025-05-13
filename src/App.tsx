@@ -220,6 +220,9 @@ export function App() {
           <a href="#" className="text-white hover:text-gray-900">
             Home
           </a>
+          <a href="#soluciones" className="text-white hover:text-gray-900">
+            Soluciones
+          </a>
           <a href="#tiendas" className="text-white hover:text-gray-900">
             Tiendas
           </a>
@@ -227,9 +230,7 @@ export function App() {
             Metodo
           </a>
          
-          <a href="#contacto" className="text-white hover:text-gray-900">
-            Contacto
-          </a>
+          
           <button  onClick={() => window.open("https://wa.me/message/HPC3HAYGTB2FA1", "w.ap")}  className="bg-yellow-400 text-white px-4 py-2 rounded-md hover:bg-purple-700">
             Contactanos
           </button>
@@ -243,17 +244,18 @@ export function App() {
             <div className="p-4 space-y-4">
               <div className="space-y-2">
                 <h3 className="font-anton text-xl text-gray-900 uppercase tracking-wide">
-                  Main Menu
+                  Menu
                 </h3>
-                <a href="#work" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
-                  Features
+                <a href="#" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
+                  Home
+                </a>
+                <a href="#soluciones" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
+                  Soluciones
                 </a>
                 <a href="#tiendas" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
-                  Nosotros
+                  Tiendas
                 </a>
-                <a href="#contacto" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 rounded">
-                  Contacto
-                </a>
+              
               </div>
           
               <button  onClick={() => window.open("https://wa.me/message/HPC3HAYGTB2FA1", "w.ap")} className="w-full bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
@@ -334,7 +336,7 @@ export function App() {
      
      
         <div className="mt-24 mb-32">
-          <div className="text-center mb-16">
+          <div id="soluciones" className="text-center mb-16">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
               Soluciones a Ecommerce
             </span>
@@ -476,63 +478,7 @@ export function App() {
 
 
         <StepsSection />
-        {/* <div className="max-w-6xl mx-auto mb-32">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
-            <div className="group relative overflow-hidden">
-              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
-                <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="">
-                  <img src="./assets/imagenes/Tienda nube.png" alt=""  className="group-hover:scale-110 transition-transform duration-300 rounded-xl w-16 h-16"/>
-                  </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">Tienda nube</h3>
-                  <p className="font-poppins text-gray-300 text-sm">
-                    Partner
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden">
-              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
-                <div className="flex flex-col items-center text-center space-y-4">
-                <div className="">
-                  <img src="./assets/imagenes/meta-ads.png" alt=""  className="group-hover:scale-110 transition-transform duration-300 rounded-xl w-16 h-16"/>
-                  </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">Meta ADS</h3>
-                  <p className="font-poppins text-gray-300 text-sm">
-                    Partner
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden">
-              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
-                <div className="flex flex-col items-center text-center space-y-4">
-                <div className="">
-                  <img src="./assets/imagenes/coding.jpg" alt=""  className="group-hover:scale-110 transition-transform duration-300 rounded-xl w-16 h-16"/>
-                  </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">Coding</h3>
-                  <p className="font-poppins text-gray-300 text-sm">
-                    High-Low Code
-                  </p>
-                </div>
-              </div>
-            </div>  
-            <div className="group relative overflow-hidden">
-              <div className="relative backdrop-blur-sm border border-gray-800/50 rounded-2xl p-6 h-full">
-                <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-16 h-16 bg-yellow-400/10 rounded-xl flex items-center justify-center border border-yellow-400/20 group-hover:scale-110 transition-transform duration-300">
-                    <Rocket className="w-8 h-8 text-yellow-400" />
-                  </div>
-                  <h3 className="font-['Anton'] text-3xl text-white">180%+</h3>
-                  <p className="font-poppins text-gray-300 text-sm">
-                    De crecimiento en los ultimos 3 meses
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
+        
 
         <div  className="mt-24 mb-16 bg-black">
           <div id="tiendas" className="text-center pt-12 mb-8">
