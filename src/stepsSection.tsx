@@ -48,10 +48,10 @@ export const StepsSection = () => {
   return (
     <section className="relative py-24 overflow-hidden">
       {/* Background Elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      {/* <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-24 -right-24 w-96 h-96 bg-purple-600 rounded-full opacity-[0.15] blur-[100px]" />
         <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-yellow-400 rounded-full opacity-[0.15] blur-[100px]" />
-      </div>
+      </div> */}
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
@@ -62,58 +62,62 @@ export const StepsSection = () => {
             Vendé las 24 horas y a todo el país.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
-          <div className="w-full lg:w-[60%] space-y-4">
-            {steps.map((step, index) => (
-              <div key={step.number} className="group relative">
-                <button
-                  onClick={() => setOpenStep(openStep === index ? null : index)}
-                  className="w-full p-6 rounded-2xl border border-gray-800 backdrop-blur-sm bg-gray-900/30 hover:bg-gray-900/50 transition-all duration-300"
-                >
-                  <div className="flex items-start gap-6">
-                    <div className="flex-shrink-0">
-                      
-                        <img src={step.Image} className= "w-16 h-16 flex items-center justify-center rounded-xl "  />
-                      
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center justify-between">
-                        <span className="inline-block font-['Anton'] text-yellow-400 text-lg mb-2">
-                          {step.number}
-                        </span>
-                        {openStep === index ? (
-                          <ChevronUp className="w-6 h-6 text-gray-400" />
-                        ) : (
-                          <ChevronDown className="w-6 h-6 text-gray-400" />
-                        )}
-                      </div>
-                      <h3 className="font-['Anton'] text-2xl text-white uppercase tracking-wide text-left">
-                        {step.title}
-                      </h3>
-                    </div>
-                  </div>
-                </button>
-                {openStep === index && (
-                  <div className="mt-2 p-6 rounded-2xl border border-gray-800 backdrop-blur-sm bg-gray-900/30">
-                    <p className="font-poppins text-gray-300">
-                      {step.description}
-                    </p>
-                  </div>
+
+      <div className="flex flex-col-reverse lg:flex-row gap-8 lg:gap-12">
+  {/* Pasos (izquierda en escritorio, abajo en móvil) */}
+  <div className="w-full lg:w-[60%] space-y-4">
+    {steps.map((step, index) => (
+      <div key={step.number} className="group relative">
+        <button
+          onClick={() => setOpenStep(openStep === index ? null : index)}
+          className="w-full p-6 rounded-2xl border border-gray-800 backdrop-blur-sm bg-gray-900/30 hover:bg-gray-900/50 transition-all duration-300"
+        >
+          <div className="flex items-start gap-6">
+            <div className="flex-shrink-0">
+              <img
+                src={step.Image}
+                className="w-16 h-16 flex items-center justify-center rounded-xl"
+              />
+            </div>
+            <div className="flex-1">
+              <div className="flex items-center justify-between">
+                <span className="inline-block font-['Anton'] text-yellow-400 text-lg mb-2">
+                  {step.number}
+                </span>
+                {openStep === index ? (
+                  <ChevronUp className="w-6 h-6 text-gray-400" />
+                ) : (
+                  <ChevronDown className="w-6 h-6 text-gray-400" />
                 )}
               </div>
-            ))}
-          </div>
-          <div className="w-full lg:w-[40%] sticky top-24 h-fit">
-            <div className="relative rounded-2xl overflow-hidden aspect-[3/4] w-full">
-              <img
-                src='./assets/imagenes/tiendanube.png'
-                alt="E-commerce Platform"
-                className="w-full h-full object-cover"
-              />
-              
+              <h3 className="font-['Anton'] text-2xl text-white uppercase tracking-wide text-left">
+                {step.title}
+              </h3>
             </div>
           </div>
-        </div>
+        </button>
+        {openStep === index && (
+          <div className="mt-2 p-6 rounded-2xl border border-gray-800 backdrop-blur-sm bg-gray-900/30">
+            <p className="font-poppins text-gray-300">
+              {step.description}
+            </p>
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+
+  {/* Imagen (derecha en escritorio, arriba en móvil) */}
+  <div className="w-full lg:w-[40%] sticky top-24 h-fit">
+    <div className="relative rounded-2xl overflow-hidden aspect-[3/4] w-full">
+      <img
+        src="./assets/imagenes/tiendanube.png"
+        alt="E-commerce Platform"
+        className="w-full h-full object-cover"
+      />
+    </div>
+  </div>
+</div>
       </div>
     </section>
   )

@@ -364,7 +364,7 @@ export function App() {
                     </span>
                   </div>
                   <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
-                  Exploracion.
+                  Exploracion
                   </h3>
                   <div className="space-y-3 mb-6">
                     <div className="flex items-center gap-3 text-gray-300">
