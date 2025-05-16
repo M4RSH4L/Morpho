@@ -40,7 +40,7 @@ import {  ChevronRight,
 // }, 
 {
   id: 2,
-  title: 'Tecnologia',
+  title: 'Tecnología',
   category: 'Celulares',
   image: './assets/imagenes/Tecnologia.png',
   size: 'small'
@@ -72,21 +72,21 @@ import {  ChevronRight,
     bio: 'Experiencia en desarrollo de negocios por mas de 7 años, lider de diferentes multinacionales, con enfoque en la experiencia del cliente y la optimizacion de procesos.',
     linkedin: 'https://www.linkedin.com/in/ronan-lavorato/',
     github: '#',
-    email: 'sarah@example.com'
+    email: 'morphometa988@gmail.com'
   }, {
     name: 'Juliano Regidor',
     role: 'Designer',
     image: './assets/imagenes/Juliano.png', 
-    bio: 'Especialista en Diseño e implementacion de integraciones, jefe de proyecto en mas de 25 Ecommerce en diferentes Paises.',
-    linkedin: '#https://www.linkedin.com/in/ronan-lavorato/',
+    bio: 'Especialista en diseño e implementación de integraciones. Jefe de proyecto en más de 25 Ecommerce en diferentes Paises. ', 
+    linkedin: '#https://www.linkedin.com/in/juliano-regidor-9a6814171/',
     github: '#',
-    email: 'michael@example.com'
+    email: 'morphometa988@gmail.com'
   }];
 const faqItems = [{
   question: '¿Qué incluye el servicio de armado de tienda?',
   answer: 'Incluye configuración completa en Tiendanube: dominio propio, carga de productos, medios de pago y envío, diseño visual, banners, WhatsApp, redes sociales, y capacitación para que sepas manejarla.'
 }, {
-  question: 'Se puede financiar?',
+  question: '¿Se puede financiar?',
   answer: "Dependiendo del proyecto, podemos ofrecer opciones de financiamiento."
 }, {
   question: '¿Cuánto tarda el proceso?',
@@ -95,8 +95,8 @@ const faqItems = [{
   question: '¿Qué pasa si necesito ayuda después?',
   answer: 'Contás con soporte post-lanzamiento coordinado por el manager de proyecto, y también podés contratar mantenimiento mensual o soporte puntual.'
 }, {
-  question: 'Quiero una asesoria, la deberia pagar?',
-  answer: 'No, la primer asesoria es totalmente gratuita. Y es donde te conocemos a ti y a tu negocio o idea de negocio. Te ayudamos a definir el proyecto y su viabilidad.'
+  question: '¿Si quiero una asesoría, la deberia pagar?',
+  answer: 'La primer asesoría es totalmente gratuita. Y es donde te conocemos a ti y a tu negocio o idea. Te ayudamos a definir el proyecto y su viabilidad.'
 }];
 type CarouselProps = {
   items: {
@@ -227,7 +227,7 @@ export function App() {
             Tiendas
           </a>
           <a href="#work" className="text-white hover:text-gray-900">
-            Metodo
+            Método
           </a>
          
           
@@ -322,8 +322,7 @@ export function App() {
               </span>
             </h1>
             <p className="font-poppins text-lg sm:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-              Potencia tu negocio con soluciones digitales innovadoras y
-              estrategias personalizadas para el éxito en línea.
+              No tenés que saber de ecommerce, diseño o marketing. Traé tu idea y nosotros te ayudamos a dejarla lista para vender. 
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
@@ -364,7 +363,7 @@ export function App() {
                     </span>
                   </div>
                   <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
-                  Exploracion
+                  Exploración
                   </h3>
                   <div className="space-y-3 mb-6">
                     <div className="flex items-center gap-3 text-gray-300">
@@ -376,13 +375,13 @@ export function App() {
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                      Adaptamos el diseño para que se vea increíble en compu y en celular
+                      Adaptamos el diseño para que se vea increíble en compu y en celular.
                       </span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                      Pensamos en cada detalle para que tus clientes disfruten navegar en tu sitio
+                      Pensamos en cada detalle para que tus clientes disfruten navegar en tu sitio.
                       </span>
                     </div>
                   </div>
@@ -412,7 +411,7 @@ export function App() {
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                      Métodos de pago y envío integrados
+                      Métodos de pago y envío integrados.
                       </span>
                     </div>
                     <div className="flex items-center gap-3 text-gray-300">
@@ -424,7 +423,7 @@ export function App() {
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                      Testeamos cada funcion para que todo funcione a la perfeccion
+                      Testeamos cada funcion para que todo funcione a la perfeccion.
                       </span>
                     </div>
                   </div>
@@ -442,7 +441,7 @@ export function App() {
                     </span>
                   </div>
                   <h3 className="font-['Anton'] text-2xl text-white mb-4 uppercase">
-                    Autonomia
+                    Autonomía
                   </h3>
                   <div className="space-y-3 mb-6">
                     <div className="flex items-center gap-3 text-gray-300">
@@ -461,7 +460,7 @@ export function App() {
                     <div className="flex items-center gap-3 text-gray-300">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="font-poppins">
-                       Tu tienda Web esta lista para que tus clientes compren las 24hs.
+                       Tu tienda Web está lista para que tus clientes compren las 24hs.
                       </span>
                     </div>
                   </div>
@@ -470,7 +469,7 @@ export function App() {
             </div>
             <div className="mt-12 text-center">
               <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
-                Agenda tu reunion Gratuita!
+                Agendá tu reunión Gratuita!
               </button>
             </div>
           </div>
@@ -485,12 +484,11 @@ export function App() {
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
               Tiendas
             </span>
-            <h2 className="font-anton text-3xl sm:text-4xl text-white mb-4">
-            Nuestro ultimos trabajos
+            <h2 className="font-anton uppercase text-3xl sm:text-4xl text-white mb-4">
+            Nuestros últimos trabajos
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Explora nuestra collecion de diferentes nichos de mercados, centrado en la experiencia de usuario y la optimizacion de ventas.
-            </p>
+            Explorá nuestra colección de diferentes nichos de mercado, centrada en la experiencia de usuario y la optimización de ventas.            </p>
           </div>
           <Carousel items={portfolioItems} />
         </div>
@@ -500,10 +498,10 @@ export function App() {
         <div  id="work" className="max-w-6xl mx-auto my-24">
           <div className="text-center mb-16">
             <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              Como Trabajamos
+              Cómo Trabajamos
             </span>
             <h2 className="font-['Anton'] text-4xl sm:text-5xl text-white mb-6 uppercase tracking-wider">
-              Desarrollamos tu tienda en linea en 4 pasos
+              Desarrollamos tu tienda en línea en 4 pasos.
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
               Seguimos un desarrollo claro para que tener una tienda web sea algo sencillo y accesible.
@@ -524,10 +522,10 @@ export function App() {
                   </div>
                 </div>
                 <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                  Fase de Indagacion
+                  Fase de Indagación
                 </h3>
                 <p className="font-poppins text-gray-300 text-sm flex-grow">
-                  En esta primera instancia se averigua la viabilidad del proyecto y de los tiempos para gestionar un proyecto realista.
+                  En esta primera instancia se averigua la viabilidad del proyecto y de los tiempos para gestionarlo de manera realista.
                 </p>
                 <div className="mt-4 pt-4 border-t border-gray-800">
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
@@ -549,7 +547,7 @@ export function App() {
                   </div>
                 </div>
                 <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                  Estrategia y Planificacion
+                  Estrategia y Planificación
                 </h3>
                 <p className="font-poppins text-gray-300 text-sm flex-grow">
                 Creamos planes de proyecto detallados y 
@@ -579,13 +577,11 @@ export function App() {
                 </h3>
                 <p className="font-poppins text-gray-300 text-sm flex-grow">
                 Nos encargamos de que todo funcione a la perfección desde el primer clic. Llevamos tu proyecto del concepto a la realidad con una implementación sólida, ágil y enfocada en resultados.
-
-
                 </p>
                 <div className="mt-4 pt-4 border-t border-gray-800">
                   <div className="flex items-center text-purple-400 group-hover:text-yellow-400 transition-colors">
                     <Rocket className="w-5 h-5 mr-2" />
-                    <span className="font-poppins text-sm">Implementacion</span>
+                    <span className="font-poppins text-sm">Implementación</span>
                   </div>
                 </div>
               </div>
@@ -600,7 +596,7 @@ export function App() {
                   </div>
                 </div>
                 <h3 className="font-['Anton'] text-xl text-white mb-3 uppercase tracking-wide">
-                Entrega y Autogestion
+                Entrega y Autogestión
                 </h3>
                 <p className="font-poppins text-gray-300 text-sm flex-grow">
                 Te entregamos tu tienda lista para vender y te capacitamos para que la gestiones con confianza desde el inicio.
@@ -626,7 +622,7 @@ export function App() {
               
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Mas de 12 años de experiencia en negocios digitales, listos para ayudarte a crecer
+              Más de 12 años de experiencia en negocios digitales, listos para ayudarte a crecer.
             </p>
           </div>
           
@@ -671,7 +667,7 @@ export function App() {
               Preguntas Frecuentes
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4 mb-8">
-              Find answers to common questions about our services and process
+              Encontrá respuestas a preguntas frecuentes sobre nuestros servicios y procesos.
             </p>
           </div>
           <div className="max-w-3xl mx-auto px-4">
@@ -689,7 +685,7 @@ export function App() {
               Trabajemos juntos en tu tienda online.
             </h2>
             <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-              Estas listo para transformar tu negocio?
+              ¿Estás listo para transformar tu negocio?
             </p>
           </div>
           <div className="max-w-4xl mx-auto px-4">
@@ -724,16 +720,16 @@ export function App() {
                           <MapPin className="w-5 h-5 text-white" />
                         </div>
                         <span className="font-poppins">
-                          Buenos Aires, Argentina
+                         Ciudad de La Plata. 
                           <br />
-                          Ciudad de La Plata.
+                          Buenos Aires, Argentina.
                         </span>
                       </div>
                     </div>
                   </div>
                   <div>
                     <h3 className="font-['Anton'] text-xl text-white mb-4 uppercase">
-                      Seguinos!
+                      ¡Seguinos!
                     </h3>
                     <div className="flex gap-4">
                       <a onClick={() => window.open("https://www.linkedin.com/company/morpho-agencia/", "_blank")}
@@ -770,7 +766,7 @@ export function App() {
                   </button>
                   <button onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="w-full bg-purple-600 text-white px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-purple-700 transition-colors duration-300 flex items-center justify-center gap-2">
                     <Calendar className="w-5 h-5" />
-                    Agenda una llamada
+                    Agendá una llamada
                   </button>
                 </div>
               </div>

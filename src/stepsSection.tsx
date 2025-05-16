@@ -12,15 +12,15 @@ const steps = [
     number: '01',
     title: 'Socios oficiales de Tiendanube',
     description:
-      'Te regalamos los primeros 30 dias de tu tienda online para que tengas tiempo de adaptarte.',
+      'Te regalamos los primeros 30 días de tu tienda online para que tengas tiempo de adaptarte.',
     color: 'bg-yellow-400 to-yellow-300',
     Image: './assets/imagenes/Tienda nube.png',
   },
   {
     number: '02',
-    title: 'Diseño y catalogo de productos',
+    title: 'Diseño y catálogo de productos',
     description:
-      'Adecuamos el diseño de tu tienda a tu marca y creamos un catalogo de productos atractivo para tus clientes.',
+      'Adecuamos el diseño de tu tienda a tu marca y creamos un catálogo de productos atractivo para tus clientes.',
     icon: Palette,
     color: 'from-yellow-400 to-yellow-300',
     Image: './assets/imagenes/catalogo.png',
