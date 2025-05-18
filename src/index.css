@@ -34,3 +34,8 @@ color: yellow;}
   .bg-gray-900\/30 {
     background-color: #0000004d;
 }
+
+
+.hover\:bg-yellow-300:hover {
+
+    color: black;}
