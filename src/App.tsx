@@ -1,7 +1,7 @@
 import { useState } from 'react';
 // import '@fontsource/anton';
 import { StepsSection } from './stepsSection'
-
+import { Carrusel } from './carrusel'
 import {  ChevronRight,
   Users,
   BarChart,
@@ -479,19 +479,9 @@ export function App() {
         <StepsSection />
         
 
-        <div  className="mt-24 mb-16 bg-black">
-          <div id="tiendas" className="text-center pt-12 mb-8">
-            <span className="font-poppins inline-block text-yellow-400 text-base sm:text-lg font-semibold mb-2">
-              Tiendas
-            </span>
-            <h2 className="font-anton uppercase text-3xl sm:text-4xl text-white mb-4">
-            Nuestros últimos trabajos
-            </h2>
-            <p className="font-poppins text-gray-300 max-w-2xl mx-auto px-4">
-            Explorá nuestra colección de diferentes nichos de mercado, centrada en la experiencia de usuario y la optimización de ventas.            </p>
-          </div>
-          <Carousel items={portfolioItems} />
-        </div>
+ 
+
+<Carrusel />
 
 
 
