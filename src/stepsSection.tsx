@@ -15,7 +15,7 @@ const steps = [
       'Te regalamos los primeros 30 días de tu tienda online para que tengas tiempo de adaptarte.',
     color: 'bg-yellow-400 to-yellow-300',
     Image: './assets/imagenes/Tienda nube.png',
-    alt: "Logo de Tienda Nube",
+    alt: "LogTiendaNube",
   },
   {
     number: '02',
@@ -80,6 +80,8 @@ export const StepsSection = () => {
               <img
                 src={step.Image}
                 className="w-16 h-16 flex items-center justify-center rounded-xl"
+                alt={step.alt}
+
               />
             </div>
             <div className="flex-1">
@@ -115,7 +117,7 @@ export const StepsSection = () => {
     <div className="relative rounded-2xl overflow-hidden aspect-[3/4] w-full">
       <img
         src="./assets/imagenes/tiendanube.png"
-        alt="E-commerce Platform"
+        alt="tiendanube"
         className="w-full h-full object-cover"
       />
     </div>
