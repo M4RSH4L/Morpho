@@ -688,7 +688,7 @@ export function App() {
                     </h3>
                     <div className="space-y-4">
                       <a
-                        href="tel:+54 9 (11) 2532-3103"
+                        href="tel:+549(11)2532-3103"
                         className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors"
                       >
                         <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
@@ -696,15 +696,7 @@ export function App() {
                         </div>
                         <span className="font-poppins">+54 9 (11) 2532-3103</span>
                       </a>
-                      {/* <a
-                        href="mailto:hello@example.com"
-                        className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors"
-                      >
-                        <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
-                          <MailIcon className="w-5 h-5 text-white" />
-                        </div>
-                        <span className="font-poppins">hello@example.com</span>
-                      </a> */}
+                   
                       <div className="flex items-center gap-3 text-gray-300">
                         <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
                           <MapPin className="w-5 h-5 text-white" />
@@ -723,19 +715,19 @@ export function App() {
                     </h3>
                     <div className="flex gap-4">
                       <a onClick={() => window.open("https://www.linkedin.com/company/morpho-agencia/", "_blank")}
-                        
+                        href="/#contacto"
                         className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
                       >
                         <LinkedinIcon className="w-5 h-5 text-white" />
                       </a>
                       <a
-                        href="#"
+                        href="Linkedin"
                         className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
                       >
                         <TwitterIcon className="w-5 h-5 text-white" />
                       </a>
                       <a onClick={() => window.open("https://www.instagram.com/meta.morpho.io/", "_blank")}
-                        href="#"
+                        href="instagram"
                         className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
                       >
                         <InstagramIcon className="w-5 h-5 text-white" />
