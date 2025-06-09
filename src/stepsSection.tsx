@@ -15,7 +15,7 @@ const steps = [
       'Te regalamos los primeros 30 días de tu tienda online para que tengas tiempo de adaptarte.',
     color: 'bg-yellow-400 to-yellow-300',
     Image: './assets/imagenes/Tienda nube.png',
-    alt: "LogTiendaNube",
+    alt: "TiendaNube",
   },
   {
     number: '02',
@@ -25,7 +25,7 @@ const steps = [
     icon: Palette,
     color: 'from-yellow-400 to-yellow-300',
     Image: './assets/imagenes/catalogo.png',
-     alt: 'Icono de catálogo de productos'
+     alt: 'productos'
   },
   {
     number: '03',
@@ -35,7 +35,7 @@ const steps = [
     icon: CreditCard,
     color: 'bg-yellow-400 to-yellow-300',
     Image: './assets/imagenes/pagos.png',
-     alt:"Icono de Pagos"
+     alt:"Pagos"
   },
   {
     number: '04',
@@ -44,6 +44,7 @@ const steps = [
       'Configuramos las mejores opciones de envío para tu tienda, adaptadas a lo que necesitás para comenzar a despachar sin demoras.',
     color: 'from-yellow-400 to-yellow-300',
     Image: './assets/imagenes/envios.png',
+    alt:"Envios"
   },
 ]
 export const StepsSection = () => {
