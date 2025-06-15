@@ -68,7 +68,7 @@ import {  ChevronRight,
   const teamMembers = [{
     name: 'Ronan Lavorato',
     role: 'BDM',
-    image: './assets/imagenes/Ronan.png',
+    image: './assets/imagenes/Ronan.jpg',
     bio: 'Experiencia en desarrollo de negocios por mas de 7 años, lider de diferentes multinacionales, con enfoque en la experiencia del cliente y la optimizacion de procesos.',
     linkedin: 'https://www.linkedin.com/in/ronan-lavorato/',
     github: '#',
