@@ -325,7 +325,13 @@ export function App() {
               No tenés que saber de ecommerce, diseño o marketing. Traé tu idea y nosotros te ayudamos a dejarla lista para vender. 
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
+            <button   onClick={() =>
+    window.open(
+      "https://calendar.google.com/calendar/appointments/AcZssZ1w0l1VztTfZEO_UFofsrnzus4pHIl2mUXmvQ0=?gv=true",
+      "popupWindow",
+      "width=600,height=700,scrollbars=yes"
+    )
+  } className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
                 Agenda una reunion Gratuita!
               </button>
             </div>
@@ -468,7 +474,13 @@ export function App() {
               </div>
             </div>
             <div className="mt-12 text-center">
-              <button  onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
+              <button   onClick={() =>
+    window.open(
+      "https://calendar.google.com/calendar/appointments/AcZssZ1w0l1VztTfZEO_UFofsrnzus4pHIl2mUXmvQ0=?gv=true",
+      "popupWindow",
+      "width=600,height=700,scrollbars=yes"
+    )
+  } className="bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300">
                 Agendá tu reunión Gratuita!
               </button>
             </div>
@@ -744,12 +756,24 @@ export function App() {
                 <div className="space-y-6">
                   <button onClick={() => window.open("https://wa.me/message/HPC3HAYGTB2FA1", "w.ap")} className="w-full bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300 flex items-center justify-center gap-2">
                     <Mail className="w-5 h-5" />
+
                     Envianos un mensaje
                   </button>
-                  <button onClick={() => window.open("https://calendly.com/-audit/auditoria", "_blank")} className="w-full bg-purple-600 text-white px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-purple-700 transition-colors duration-300 flex items-center justify-center gap-2">
-                    <Calendar className="w-5 h-5" />
-                    Agendá una llamada
-                  </button>
+
+                  <button
+                  onClick={() =>
+                    window.open(
+                      "https://calendar.google.com/calendar/appointments/AcZssZ1w0l1VztTfZEO_UFofsrnzus4pHIl2mUXmvQ0=?gv=true",
+                      "popupWindow",
+                      "width=600,height=700,scrollbars=yes"
+                    )
+                  }
+                  className="w-full bg-yellow-400 text-gray-900 px-8 py-4 rounded-xl font-['Anton'] text-lg uppercase tracking-wide hover:bg-yellow-300 transition-colors duration-300 flex items-center justify-center gap-2"
+                >
+                  <Calendar className="w-5 h-5" />
+                  Programar una cita
+                </button>
+
                 </div>
               </div>
             </div>
