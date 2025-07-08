@@ -9,6 +9,11 @@ body {
     --tw-bg-opacity: 1;
     background-color: rgb(97 0 216);
 }
+
+.text-gray-700 {
+    --tw-text-opacity: 1;
+    color: #ffff00;
+}
   .text-yellow-400{
 color: yellow;}
 .text-gray-900 {
