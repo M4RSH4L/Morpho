@@ -321,9 +321,25 @@ export function App() {
                 tienda en linea.
               </span>
             </h1>
-            <p className="font-poppins text-lg sm:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
+             <p className="font-poppins text-lg sm:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
               No tenés que saber de ecommerce, diseño o marketing. Traé tu idea y nosotros te ayudamos a dejarla lista para vender. 
             </p>
+              <div className="w-full flex justify-center my-16">
+          <div className="w-full md:w-[85%] relative rounded-2xl overflow-hidden shadow-2xl border border-gray-800">
+            <div className="aspect-video bg-gray-900">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/K2-0GcU5YR4?si=_mSf1Xw9AMdnp8RM"
+                title="Video de presentación"
+                frameBorder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="absolute inset-0 pointer-events-none border-4 border-yellow-400/20 rounded-2xl"></div>
+          </div>
+        </div>
+           
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button   onClick={() =>
     window.open(
