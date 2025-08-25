@@ -28,7 +28,7 @@ import {  ChevronRight,
   Mail as MailIcon,
   MapPin,
   TwitterIcon,
-  InstagramIcon,
+  Instagram, // Cambiar InstagramIcon por Instagram
   FacebookIcon,
   Calendar,} from 'lucide-react';
  const portfolioItems = [
@@ -324,21 +324,7 @@ export function App() {
              <p className="font-poppins text-lg sm:text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
               No tenés que saber de ecommerce, diseño o marketing. Traé tu idea y nosotros te ayudamos a dejarla lista para vender. 
             </p>
-              <div className="w-full flex justify-center my-16">
-          <div className="w-full md:w-[85%] relative rounded-2xl overflow-hidden shadow-2xl border border-gray-800">
-            <div className="aspect-video bg-gray-900">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/K2-0GcU5YR4?si=_mSf1Xw9AMdnp8RM"
-                title="Video de presentación"
-                frameBorder="0"
-                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <div className="absolute inset-0 pointer-events-none border-4 border-yellow-400/20 rounded-2xl"></div>
-          </div>
-        </div>
+         
            
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button   onClick={() =>
@@ -724,6 +710,17 @@ export function App() {
                         </div>
                         <span className="font-poppins">+54 9 (11) 2532-3103</span>
                       </a>
+
+                      <a
+                        href="tel:+549(11)2532-3103"
+                        className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors"
+                      >
+                        <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
+                          <MailIcon className="w-5 h-5 text-white" />
+                        </div>
+                        <span className="font-poppins">Agencia@morpho.com.ar</span>
+                      </a>
+                      
                    
                       <div className="flex items-center gap-3 text-gray-300">
                         <div className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center">
@@ -748,17 +745,12 @@ export function App() {
                       >
                         <LinkedinIcon className="w-5 h-5 text-white" />
                       </a>
-                      <a
-                        href="Linkedin"
+                      <a onClick={() => window.open("https://twitter.com/morpho_agencia", "_blank")}
+                        href="twitter"
                         className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
                       >
-                        <TwitterIcon className="w-5 h-5 text-white" />
-                      </a>
-                      <a onClick={() => window.open("https://www.instagram.com/meta.morpho.io/", "_blank")}
-                        href="instagram"
-                        className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
-                      >
-                        <InstagramIcon className="w-5 h-5 text-white" />
+                       
+                        <Instagram className="w-5 h-5 text-white" /> {/* Cambiar InstagramIcon por Instagram */}
                       </a>
                       <a
                         href="#"

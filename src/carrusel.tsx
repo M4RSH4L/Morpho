@@ -8,7 +8,8 @@ export const Carrusel = () => {
   const videos = [
     "/assets/imagenes/videos/Tienda1.mp4",
     "/assets/imagenes/videos/Tienda2.mp4",
-    "/assets/imagenes/videos/Tienda5.mp4"
+    "/assets/imagenes/videos/Tienda5.mp4",
+    "/assets/imagenes/videos/Mobile.mp4"
   ]
 
   return (
