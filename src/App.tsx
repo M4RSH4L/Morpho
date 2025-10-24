@@ -1,33 +1,32 @@
 import { useState } from 'react';
+import { ServicesSection } from './servicesSections';
+import { FaWhatsapp } from "react-icons/fa";
 // import '@fontsource/anton';
 import { StepsSection } from './stepsSection'
 import { Carrusel } from './carrusel'
-import {  ChevronRight,
-  Users,
-  BarChart,
+import {  
   MessageCircle,
-  ArrowRight,
-  Globe,
+ 
   Menu,
   X,
   Target,
   Users2,
   Rocket,
   Trophy,
-  Play,
-  ExternalLink,
+  
+  
   Eye,
   ChevronLeft,
   ChevronRight as ChevronRightIcon,
   Mail,
   LinkedinIcon,
-  GithubIcon,
+  
   Plus,
   Minus,
   Phone,
   Mail as MailIcon,
   MapPin,
-  TwitterIcon,
+  
   Instagram, // Cambiar InstagramIcon por Instagram
   FacebookIcon,
   Calendar,} from 'lucide-react';
@@ -107,6 +106,7 @@ type CarouselProps = {
     size: string;
   }[];
 };
+  
 
 const Carousel = ({ items }: CarouselProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -200,7 +200,12 @@ const FAQ = ({ items }: FAQProps) => {
         </div>)}
     </div>;
 };
+
 export function App() {
+  const whatsappNumber = "5491125323103"; // Reemplaza con tu número (código de país + número)
+  const message = "¡Hola! Me gustaría saber más información."; // Mensaje predefinido
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return <div className="w-full min-h-screen bg-black relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -235,6 +240,7 @@ export function App() {
             Contactanos
           </button>
           
+          
         </div>
         
         <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -267,7 +273,21 @@ export function App() {
           </div>}
           
       </nav>
+                    
+ <div className="whatsup">
+      {/* Contenido principal de tu app */}
       
+
+      {/* Botón flotante de WhatsApp */}
+      <a
+        href={whatsappLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 flex items-center justify-center z-50"
+      >
+        <FaWhatsapp size={28} />
+      </a>
+    </div>
       <main className={`relative max-w-6xl mx-auto px-4 sm:px-6 transition-all duration-300 ease-in-out ${isMenuOpen ? 'pt-[400px]' : 'pt-14'}`}>
       <div className="relative min-h-[80vh] md:min-h-[70vh] flex items-center md:items-start md:pt-20 justify-center my-12 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
@@ -489,11 +509,11 @@ export function App() {
           </div>
         </div>
 
-
+ <ServicesSection />
         <StepsSection />
         
 
- 
+
 
 <Carrusel />
 
@@ -745,7 +765,7 @@ export function App() {
                       >
                         <LinkedinIcon className="w-5 h-5 text-white" />
                       </a>
-                      <a onClick={() => window.open("https://twitter.com/morpho_agencia", "_blank")}
+                      <a onClick={() => window.open("https://www.instagram.com/meta.morpho.io/", "_blank")}
                         href="twitter"
                         className="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center hover:bg-yellow-400 transition-colors"
                       >
