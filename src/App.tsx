@@ -67,7 +67,7 @@ import {
   const teamMembers = [{
     name: 'Ronan Lavorato',
     role: 'BDM',
-    image: './assets/imagenes/Ronan.png',
+    image: './assets/imagenes/ronan.jpeg',
     bio: 'Experiencia en desarrollo de negocios por mas de 7 años, lider de diferentes multinacionales, con enfoque en la experiencia del cliente y la optimizacion de procesos.',
     linkedin: 'https://www.linkedin.com/in/ronan-lavorato/',
     github: '#',
@@ -75,7 +75,7 @@ import {
   }, {
     name: 'Juliano Regidor',
     role: 'Designer',
-    image: './assets/imagenes/Juliano.png', 
+    image: './assets/imagenes/juliano.jpg', 
     bio: 'Especialista en diseño e implementación de integraciones. Jefe de proyecto en más de 25 Ecommerce en diferentes Paises. ', 
     linkedin: '#https://www.linkedin.com/in/juliano-regidor-9a6814171/',
     github: '#',
