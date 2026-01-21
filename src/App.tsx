@@ -349,7 +349,7 @@ export function App() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button   onClick={() =>
     window.open(
-      "https://calendar.google.com/calendar/appointments/AcZssZ1w0l1VztTfZEO_UFofsrnzus4pHIl2mUXmvQ0=?gv=true",
+      "https://calendar.google.com/calendar/appointments/schedules/AcZssZ08rZzLkXDqjaCh84VukVTlHCVGmVMrMdhpA6byZQrCBEYdz_3W8voBg1xb-wrTf8_vBNfZEHzC?gv=true",
       "popupWindow",
       "width=600,height=700,scrollbars=yes"
     )
@@ -498,7 +498,7 @@ export function App() {
             <div className="mt-12 text-center">
               <button   onClick={() =>
     window.open(
-      "https://calendar.google.com/calendar/appointments/AcZssZ1w0l1VztTfZEO_UFofsrnzus4pHIl2mUXmvQ0=?gv=true",
+      "https://calendar.google.com/calendar/appointments/schedules/AcZssZ08rZzLkXDqjaCh84VukVTlHCVGmVMrMdhpA6byZQrCBEYdz_3W8voBg1xb-wrTf8_vBNfZEHzC?gv=true",
       "popupWindow",
       "width=600,height=700,scrollbars=yes"
     )
@@ -791,7 +791,7 @@ export function App() {
                   <button
                   onClick={() =>
                     window.open(
-                      "https://calendar.google.com/calendar/appointments/AcZssZ1w0l1VztTfZEO_UFofsrnzus4pHIl2mUXmvQ0=?gv=true",
+                      "https://calendar.google.com/calendar/appointments/schedules/AcZssZ08rZzLkXDqjaCh84VukVTlHCVGmVMrMdhpA6byZQrCBEYdz_3W8voBg1xb-wrTf8_vBNfZEHzC?gv=true",
                       "popupWindow",
                       "width=600,height=700,scrollbars=yes"
                     )
