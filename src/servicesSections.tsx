@@ -28,7 +28,7 @@ const services = [
     {
     id: 4,
     title: 'Menu inteligente',
-    description: 'Menu digital inteligente para gastronomicos, menu moderno e inttuitivo para local fisico y online para motores de busqueda con posicionamiento SEO',
+    description: 'Menú digital optimizado para gastronomía. Rápido, intuitivo y pensado para vender más.',
     icon: ChefHat,
     cta: 'Menu Digital',
     ctaLink: '#contacto'
