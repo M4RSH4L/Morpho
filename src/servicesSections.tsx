@@ -1,4 +1,4 @@
-import { Search, Code, ShoppingCart } from 'lucide-react';
+import { Search, Code, ShoppingCart, Menu, ChefHat } from 'lucide-react';
 
 const services = [
   {
@@ -24,6 +24,14 @@ const services = [
     icon: ShoppingCart,
     cta: 'Empieza tu tienda ahora',
     ctaLink: '#contacto'
+  },
+    {
+    id: 4,
+    title: 'Menu inteligente',
+    description: 'Menu digital inteligente para gastronomicos, menu moderno e inttuitivo para local fisico y online para motores de busqueda con posicionamiento SEO',
+    icon: ChefHat,
+    cta: 'Menu Digital',
+    ctaLink: '#contacto'
   }
 ];
 
@@ -43,7 +51,7 @@ export const ServicesSection = () => {
       </div>
 
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service) => {
             const IconComponent = service.icon;
             return (
